@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -599,6 +599,13 @@ Mosfet H-Bridge</text>
 <wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="8.128" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SUPPLY">
+<pin name="VCC" x="0" y="10.16" length="short" rot="R270"/>
+<pin name="GND" x="0" y="-10.16" length="short" rot="R90"/>
+<text x="0" y="8.382" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -738,6 +745,60 @@ Production SKU IC-00870</description>
 <connect gate="G$1" pin="P1S/P2S" pad="7"/>
 <connect gate="G$1" pin="P2D/N2D" pad="6"/>
 <connect gate="G$1" pin="P2G" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SN65HVD23X">
+<description>&lt;h4&gt;SN65HVD23x&lt;/h4&gt;
+&lt;p&gt;
+  &lt;b&gt;Features:&lt;/b&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Operates with a single 3.3 V Supply&lt;/li&gt;
+    &lt;li&gt;Compatible With ISO 11898-2 Standard&lt;/li&gt;
+    &lt;li&gt;Low Power Replacement for the PCA82C250 Footprint&lt;/li&gt;
+    &lt;li&gt;Bus Pin ESD Protection Exceeds ±16 kV HBM&lt;/li&gt;
+    &lt;li&gt;High Input Impedance Allows for Up to 120 Nodes on a Bus&lt;/li&gt;
+    &lt;li&gt;Adjustable Driver Transition Times for Improved Emissions Performance&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;SN65HVD230 and SN65HVD231&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;SN65HVD230: Low Current Standby Mode&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;370 μA Typical&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;SN65HVD231: Ultra Low Current Sleep Mode&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;40 nA Typical&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Designed for Data Rates up to 1 Mbps&lt;/li&gt;
+    &lt;li&gt;Thermal Shutdown Protection&lt;/li&gt;
+    &lt;li&gt;Open Circuit Fail-Safe Design&lt;/li&gt;
+    &lt;li&gt;Glitch Free Power Up and Power Down Protection for Hot Plugging Applications&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet: &lt;a href="http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf"&gt;http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;author&gt;Created by Hans Achterbahn &lt;br /&gt; (&lt;a href="https://github.com/HansAchterbahn"&gt;"https://github.com/HansAchterbahn&lt;/a&gt;)&lt;/author&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAN-TRANCEIVER" x="0" y="0"/>
+<gate name="G$2" symbol="SUPPLY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO-08">
+<connects>
+<connect gate="G$1" pin="CANH" pad="7"/>
+<connect gate="G$1" pin="CANL" pad="6"/>
+<connect gate="G$1" pin="RS" pad="8"/>
+<connect gate="G$1" pin="RXD" pad="4"/>
+<connect gate="G$1" pin="TXD" pad="1"/>
+<connect gate="G$1" pin="VREF" pad="5"/>
+<connect gate="G$2" pin="GND" pad="2"/>
+<connect gate="G$2" pin="VCC" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>

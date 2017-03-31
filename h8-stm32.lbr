@@ -186,8 +186,7 @@
 <smd name="62" x="-2.75" y="5.7" dx="0.3" dy="1.2" layer="1"/>
 <smd name="63" x="-3.25" y="5.7" dx="0.3" dy="1.2" layer="1"/>
 <smd name="64" x="-3.75" y="5.7" dx="0.3" dy="1.2" layer="1"/>
-<text x="-3.81" y="6.604" size="1.778" layer="25">&gt;NAME</text>
-<text x="-4.064" y="-1.7701" size="1.778" layer="27">&gt;VALUE</text>
+<text x="-2.54" y="3.81" size="0.3048" layer="25">&gt;NAME</text>
 <rectangle x1="-6" y1="3.65" x2="-4.8" y2="3.85" layer="21"/>
 <rectangle x1="-6" y1="3.15" x2="-4.8" y2="3.35" layer="21"/>
 <rectangle x1="-6" y1="2.65" x2="-4.8" y2="2.85" layer="21"/>
