@@ -123,7 +123,10 @@
 
 &lt;p&gt;Library with common used conectors&lt;/p&gt;
 
-&lt;p&gt;&lt;author&gt;Created by Hans Achterbahn (&lt;a href="https://github.com/HansAchterbahn"&gt;"https://github.com/HansAchterbahn&lt;/a&gt;)&lt;/author&gt;&lt;p&gt;</description>
+&lt;p&gt;&lt;author&gt;
+Created by Hans Achterbahn &lt;br /&gt;
+(&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)
+&lt;/author&gt;&lt;p&gt;</description>
 <packages>
 <package name="USB-MINIB">
 <description>&lt;b&gt;USB Series Mini-B Surface Mounted&lt;/b&gt;</description>

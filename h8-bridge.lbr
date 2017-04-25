@@ -59,7 +59,10 @@
 
 &lt;p&gt;Library with different types of bridges&lt;/p&gt;
 
-&lt;p&gt;&lt;author&gt;Created by Hans Achterbahn (&lt;a href="https://github.com/HansAchterbahn"&gt;"https://github.com/HansAchterbahn&lt;/a&gt;)&lt;/author&gt;&lt;p&gt;</description>
+&lt;p&gt;&lt;author&gt;
+Created by Hans Achterbahn &lt;br /&gt;
+(&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)
+&lt;/author&gt;&lt;p&gt;</description>
 <packages>
 <package name="BRÜCKE-25MIL">
 <smd name="1" x="-0.254" y="0" dx="1.27" dy="0.635" layer="1"/>

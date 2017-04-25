@@ -74,7 +74,10 @@
 
 &lt;p&gt;Library for the Anybus Modules of HSM&lt;/p&gt;
 
-&lt;p&gt;&lt;author&gt;Created by Hans Achterbahn (&lt;a href="https://github.com/HansAchterbahn"&gt;"https://github.com/HansAchterbahn&lt;/a&gt;)&lt;/author&gt;&lt;p&gt;</description>
+&lt;p&gt;&lt;author&gt;
+Created by Hans Achterbahn &lt;br /&gt;
+(&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)
+&lt;/author&gt;&lt;p&gt;</description>
 <packages>
 <package name="HOST-CONNECTOR">
 <description>&lt;h1&gt;Host Connector&lt;/h1&gt;
