@@ -30,6 +30,7 @@ In this place you can find some libraries I wrote for the PCB CAD Programm Eagle
   - modified std lbr
 - h8-switch
   - TAC_SWITCH
+  - Joystick Alps RKJXK1210/1220
   
   
   
