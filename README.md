@@ -31,6 +31,17 @@ In this place you can find some libraries I wrote for the PCB CAD Programm Eagle
 - h8-switch
   - TAC_SWITCH
   - Joystick Alps RKJXK1210/1220
-  
+- forks
+  - E14_Arduino_revC.lbr (Element14)
+    - Arduino 101
+    - Arduino Due
+    - Arduino Ethernet
+    - Arduino Leonardo
+    - Arduino Lilypad
+    - Arduino Mega2560
+    - Arduino Micro
+    - Arduino Mini
+    - Arduino Nano
+    - Arduino Uno
   
   
