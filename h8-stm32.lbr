@@ -2907,7 +2907,7 @@ Documentary, Reference Manual and Datasheet: &lt;br /&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32F334K8T">
+<deviceset name="STM32F334K8T" prefix="IC">
 <description>&lt;b&gt;STM32 Mikrocontroller: STM32F334K8Tx&lt;/b&gt;
 
 &lt;p&gt;

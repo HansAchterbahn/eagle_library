@@ -755,7 +755,7 @@ Production SKU IC-00870</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SN65HVD23X">
+<deviceset name="SN65HVD23X" prefix="IC">
 <description>&lt;h4&gt;SN65HVD23x&lt;/h4&gt;
 &lt;p&gt;
   &lt;b&gt;Features:&lt;/b&gt;

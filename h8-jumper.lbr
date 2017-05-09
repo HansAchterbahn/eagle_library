@@ -512,7 +512,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="JARROW_3.2X1.6MM">
+<deviceset name="JARROW_3.2X1.6MM" prefix="J">
 <description>&lt;b&gt;Solder jumper arrow&lt;/b&gt;
 
 &lt;p&gt;&lt;author&gt;Created by Hans Achterbahn &lt;br /&gt; (&lt;a href="https://github.com/HansAchterbahn"&gt;"https://github.com/HansAchterbahn&lt;/a&gt;)&lt;/author&gt;&lt;p&gt;</description>
