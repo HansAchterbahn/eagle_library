@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -65,20 +65,36 @@ Created by Hans Achterbahn &lt;br /&gt;
 &lt;/author&gt;&lt;p&gt;</description>
 <packages>
 <package name="BRÜCKE-25MIL">
+<description>&lt;p&gt;&lt;author&gt;
+Created by Hans Achterbahn &lt;br /&gt;
+(&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)
+&lt;/author&gt;&lt;p&gt;</description>
 <smd name="1" x="-0.254" y="0" dx="1.27" dy="0.635" layer="1"/>
 <smd name="2" x="0.889" y="0" dx="1.27" dy="0.635" layer="1"/>
 </package>
 <package name="BRüCKE-50MIL">
+<description>&lt;p&gt;&lt;author&gt;
+Created by Hans Achterbahn &lt;br /&gt;
+(&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)
+&lt;/author&gt;&lt;p&gt;</description>
 <smd name="P$1" x="-1.27" y="0" dx="2.54" dy="1.27" layer="1"/>
 <smd name="P$2" x="1.27" y="0" dx="2.54" dy="1.27" layer="1"/>
 </package>
 <package name="BRüCKE-100MIL">
+<description>&lt;p&gt;&lt;author&gt;
+Created by Hans Achterbahn &lt;br /&gt;
+(&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)
+&lt;/author&gt;&lt;p&gt;</description>
 <smd name="P$1" x="-1.27" y="0" dx="5.08" dy="2.54" layer="1"/>
 <smd name="P$2" x="1.27" y="0" dx="5.08" dy="2.54" layer="1"/>
 </package>
 </packages>
 <symbols>
 <symbol name="BRüCKE">
+<description>&lt;p&gt;&lt;author&gt;
+Created by Hans Achterbahn &lt;br /&gt;
+(&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)
+&lt;/author&gt;&lt;p&gt;</description>
 <pin name="1" x="-5.08" y="0" visible="off" length="middle"/>
 <pin name="2" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
 <text x="-2.794" y="0.762" size="1.27" layer="95">Brücke</text>
@@ -86,6 +102,10 @@ Created by Hans Achterbahn &lt;br /&gt;
 </symbols>
 <devicesets>
 <deviceset name="BRüCKE-25MIL">
+<description>&lt;p&gt;&lt;author&gt;
+Created by Hans Achterbahn &lt;br /&gt;
+(&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)
+&lt;/author&gt;&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="BRüCKE" x="17.78" y="-7.62"/>
 </gates>
@@ -102,6 +122,10 @@ Created by Hans Achterbahn &lt;br /&gt;
 </devices>
 </deviceset>
 <deviceset name="BRüCKE-50MIL">
+<description>&lt;p&gt;&lt;author&gt;
+Created by Hans Achterbahn &lt;br /&gt;
+(&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)
+&lt;/author&gt;&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="BRüCKE" x="0" y="0"/>
 </gates>
@@ -118,6 +142,10 @@ Created by Hans Achterbahn &lt;br /&gt;
 </devices>
 </deviceset>
 <deviceset name="BRüCKE-100MIL">
+<description>&lt;p&gt;&lt;author&gt;
+Created by Hans Achterbahn &lt;br /&gt;
+(&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)
+&lt;/author&gt;&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="BRüCKE" x="0" y="0"/>
 </gates>

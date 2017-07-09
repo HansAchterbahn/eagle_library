@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -71,275 +71,19 @@
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>&lt;h4&gt;Misc&lt;/h4&gt;
+
+&lt;p&gt;Library with uncategorized devices &lt;/p&gt;
+
+&lt;p&gt;&lt;author&gt;
+Created by Hans Achterbahn &lt;br /&gt;
+(&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)
+&lt;/author&gt;&lt;p&gt;</description>
 <packages>
-<package name="R0805X5">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="-0.635" y1="-0.41" x2="-0.635" y2="0.41" width="0.1524" layer="51"/>
-<wire x1="0.635" y1="-0.41" x2="0.635" y2="0.41" width="0.1524" layer="51"/>
-<wire x1="-1.9355" y1="-1.973" x2="-1.9355" y2="1.973" width="0.0508" layer="39"/>
-<wire x1="-1.9355" y1="1.973" x2="12.0955" y2="1.973" width="0.0508" layer="39"/>
-<wire x1="12.0955" y1="1.973" x2="12.0955" y2="-1.973" width="0.0508" layer="39"/>
-<wire x1="12.0955" y1="-1.973" x2="-1.9355" y2="-1.973" width="0.0508" layer="39"/>
-<text x="-0.635" y="2.2225" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-2.2225" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<rectangle x1="-0.3265" y1="0.0314" x2="0.3235" y2="1.4314" layer="51" rot="R90"/>
-<rectangle x1="-0.3265" y1="-1.4418" x2="0.3235" y2="-0.0418" layer="51" rot="R90"/>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
-<wire x1="1.905" y1="-0.41" x2="1.905" y2="0.41" width="0.1524" layer="51"/>
-<wire x1="3.175" y1="-0.41" x2="3.175" y2="0.41" width="0.1524" layer="51"/>
-<rectangle x1="2.2135" y1="0.0314" x2="2.8635" y2="1.4314" layer="51" rot="R90"/>
-<rectangle x1="2.2135" y1="-1.4418" x2="2.8635" y2="-0.0418" layer="51" rot="R90"/>
-<wire x1="4.445" y1="-0.41" x2="4.445" y2="0.41" width="0.1524" layer="51"/>
-<wire x1="5.715" y1="-0.41" x2="5.715" y2="0.41" width="0.1524" layer="51"/>
-<rectangle x1="4.7535" y1="0.0314" x2="5.4035" y2="1.4314" layer="51" rot="R90"/>
-<rectangle x1="4.7535" y1="-1.4418" x2="5.4035" y2="-0.0418" layer="51" rot="R90"/>
-<wire x1="6.985" y1="-0.41" x2="6.985" y2="0.41" width="0.1524" layer="51"/>
-<wire x1="8.255" y1="-0.41" x2="8.255" y2="0.41" width="0.1524" layer="51"/>
-<rectangle x1="7.2935" y1="0.0314" x2="7.9435" y2="1.4314" layer="51" rot="R90"/>
-<rectangle x1="7.2935" y1="-1.4418" x2="7.9435" y2="-0.0418" layer="51" rot="R90"/>
-<wire x1="9.525" y1="-0.41" x2="9.525" y2="0.41" width="0.1524" layer="51"/>
-<wire x1="10.795" y1="-0.41" x2="10.795" y2="0.41" width="0.1524" layer="51"/>
-<rectangle x1="9.8335" y1="0.0314" x2="10.4835" y2="1.4314" layer="51" rot="R90"/>
-<rectangle x1="9.8335" y1="-1.4418" x2="10.4835" y2="-0.0418" layer="51" rot="R90"/>
-<smd name="1" x="5.08" y="1.11125" dx="13.843" dy="1.524" layer="1"/>
-<smd name="2" x="5.08" y="-1.11125" dx="13.843" dy="1.524" layer="1"/>
-</package>
-<package name="R0603X5">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="0.356" y1="-0.432" x2="0.356" y2="0.432" width="0.1524" layer="51"/>
-<wire x1="-0.356" y1="0.432" x2="-0.356" y2="-0.432" width="0.1524" layer="51"/>
-<wire x1="-1.618" y1="-1.63175" x2="-1.618" y2="1.63175" width="0.0508" layer="39"/>
-<wire x1="-1.618" y1="1.63175" x2="9.238" y2="1.63175" width="0.0508" layer="39"/>
-<wire x1="9.238" y1="1.63175" x2="9.238" y2="-1.63175" width="0.0508" layer="39"/>
-<wire x1="9.238" y1="-1.63175" x2="-1.618" y2="-1.63175" width="0.0508" layer="39"/>
-<text x="-0.635" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<rectangle x1="-0.2032" y1="0.2032" x2="0.2032" y2="1.0668" layer="51" rot="R90"/>
-<rectangle x1="-0.2032" y1="-1.0668" x2="0.2032" y2="-0.2032" layer="51" rot="R90"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-<wire x1="2.261" y1="-0.432" x2="2.261" y2="0.432" width="0.1524" layer="51"/>
-<wire x1="1.549" y1="0.432" x2="1.549" y2="-0.432" width="0.1524" layer="51"/>
-<rectangle x1="1.7018" y1="0.2032" x2="2.1082" y2="1.0668" layer="51" rot="R90"/>
-<rectangle x1="1.7018" y1="-1.0668" x2="2.1082" y2="-0.2032" layer="51" rot="R90"/>
-<wire x1="4.166" y1="-0.432" x2="4.166" y2="0.432" width="0.1524" layer="51"/>
-<wire x1="3.454" y1="0.432" x2="3.454" y2="-0.432" width="0.1524" layer="51"/>
-<rectangle x1="3.6068" y1="0.2032" x2="4.0132" y2="1.0668" layer="51" rot="R90"/>
-<rectangle x1="3.6068" y1="-1.0668" x2="4.0132" y2="-0.2032" layer="51" rot="R90"/>
-<wire x1="6.071" y1="-0.432" x2="6.071" y2="0.432" width="0.1524" layer="51"/>
-<wire x1="5.359" y1="0.432" x2="5.359" y2="-0.432" width="0.1524" layer="51"/>
-<rectangle x1="5.5118" y1="0.2032" x2="5.9182" y2="1.0668" layer="51" rot="R90"/>
-<rectangle x1="5.5118" y1="-1.0668" x2="5.9182" y2="-0.2032" layer="51" rot="R90"/>
-<wire x1="7.976" y1="-0.432" x2="7.976" y2="0.432" width="0.1524" layer="51"/>
-<wire x1="7.264" y1="0.432" x2="7.264" y2="-0.432" width="0.1524" layer="51"/>
-<rectangle x1="7.4168" y1="0.2032" x2="7.8232" y2="1.0668" layer="51" rot="R90"/>
-<rectangle x1="7.4168" y1="-1.0668" x2="7.8232" y2="-0.2032" layer="51" rot="R90"/>
-<smd name="1" x="3.81" y="0.9525" dx="1.2192" dy="10.668" layer="1" rot="R270"/>
-<smd name="2" x="3.81" y="-0.9525" dx="1.2192" dy="10.668" layer="1" rot="R270"/>
-</package>
-<package name="R0603X4">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="0.356" y1="-0.432" x2="0.356" y2="0.432" width="0.1524" layer="51"/>
-<wire x1="-0.356" y1="0.432" x2="-0.356" y2="-0.432" width="0.1524" layer="51"/>
-<wire x1="-1.618" y1="-1.63175" x2="-1.618" y2="1.63175" width="0.0508" layer="39"/>
-<wire x1="-1.618" y1="1.63175" x2="7.333" y2="1.63175" width="0.0508" layer="39"/>
-<wire x1="7.333" y1="1.63175" x2="7.333" y2="-1.63175" width="0.0508" layer="39"/>
-<wire x1="7.333" y1="-1.63175" x2="-1.618" y2="-1.63175" width="0.0508" layer="39"/>
-<text x="-0.635" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<rectangle x1="-0.2032" y1="0.2032" x2="0.2032" y2="1.0668" layer="51" rot="R90"/>
-<rectangle x1="-0.2032" y1="-1.0668" x2="0.2032" y2="-0.2032" layer="51" rot="R90"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-<wire x1="2.261" y1="-0.432" x2="2.261" y2="0.432" width="0.1524" layer="51"/>
-<wire x1="1.549" y1="0.432" x2="1.549" y2="-0.432" width="0.1524" layer="51"/>
-<rectangle x1="1.7018" y1="0.2032" x2="2.1082" y2="1.0668" layer="51" rot="R90"/>
-<rectangle x1="1.7018" y1="-1.0668" x2="2.1082" y2="-0.2032" layer="51" rot="R90"/>
-<wire x1="4.166" y1="-0.432" x2="4.166" y2="0.432" width="0.1524" layer="51"/>
-<wire x1="3.454" y1="0.432" x2="3.454" y2="-0.432" width="0.1524" layer="51"/>
-<rectangle x1="3.6068" y1="0.2032" x2="4.0132" y2="1.0668" layer="51" rot="R90"/>
-<rectangle x1="3.6068" y1="-1.0668" x2="4.0132" y2="-0.2032" layer="51" rot="R90"/>
-<wire x1="6.071" y1="-0.432" x2="6.071" y2="0.432" width="0.1524" layer="51"/>
-<wire x1="5.359" y1="0.432" x2="5.359" y2="-0.432" width="0.1524" layer="51"/>
-<rectangle x1="5.5118" y1="0.2032" x2="5.9182" y2="1.0668" layer="51" rot="R90"/>
-<rectangle x1="5.5118" y1="-1.0668" x2="5.9182" y2="-0.2032" layer="51" rot="R90"/>
-<smd name="1" x="2.8575" y="0.9525" dx="1.2192" dy="8.763" layer="1" rot="R270"/>
-<smd name="2" x="2.8575" y="-0.9525" dx="1.2192" dy="8.763" layer="1" rot="R270"/>
-</package>
-<package name="R0805X4">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="-0.635" y1="-0.41" x2="-0.635" y2="0.41" width="0.1524" layer="51"/>
-<wire x1="0.635" y1="-0.41" x2="0.635" y2="0.41" width="0.1524" layer="51"/>
-<wire x1="-1.9355" y1="-1.973" x2="-1.9355" y2="1.973" width="0.0508" layer="39"/>
-<wire x1="-1.9355" y1="1.973" x2="9.5555" y2="1.973" width="0.0508" layer="39"/>
-<wire x1="9.5555" y1="1.973" x2="9.5555" y2="-1.973" width="0.0508" layer="39"/>
-<wire x1="9.5555" y1="-1.973" x2="-1.9355" y2="-1.973" width="0.0508" layer="39"/>
-<text x="-0.635" y="2.2225" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-2.2225" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<rectangle x1="-0.3265" y1="0.0314" x2="0.3235" y2="1.4314" layer="51" rot="R90"/>
-<rectangle x1="-0.3265" y1="-1.4418" x2="0.3235" y2="-0.0418" layer="51" rot="R90"/>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
-<wire x1="1.905" y1="-0.41" x2="1.905" y2="0.41" width="0.1524" layer="51"/>
-<wire x1="3.175" y1="-0.41" x2="3.175" y2="0.41" width="0.1524" layer="51"/>
-<rectangle x1="2.2135" y1="0.0314" x2="2.8635" y2="1.4314" layer="51" rot="R90"/>
-<rectangle x1="2.2135" y1="-1.4418" x2="2.8635" y2="-0.0418" layer="51" rot="R90"/>
-<wire x1="4.445" y1="-0.41" x2="4.445" y2="0.41" width="0.1524" layer="51"/>
-<wire x1="5.715" y1="-0.41" x2="5.715" y2="0.41" width="0.1524" layer="51"/>
-<rectangle x1="4.7535" y1="0.0314" x2="5.4035" y2="1.4314" layer="51" rot="R90"/>
-<rectangle x1="4.7535" y1="-1.4418" x2="5.4035" y2="-0.0418" layer="51" rot="R90"/>
-<wire x1="6.985" y1="-0.41" x2="6.985" y2="0.41" width="0.1524" layer="51"/>
-<wire x1="8.255" y1="-0.41" x2="8.255" y2="0.41" width="0.1524" layer="51"/>
-<rectangle x1="7.2935" y1="0.0314" x2="7.9435" y2="1.4314" layer="51" rot="R90"/>
-<rectangle x1="7.2935" y1="-1.4418" x2="7.9435" y2="-0.0418" layer="51" rot="R90"/>
-<smd name="1" x="3.81" y="1.11125" dx="11.303" dy="1.524" layer="1"/>
-<smd name="2" x="3.81" y="-1.11125" dx="11.303" dy="1.524" layer="1"/>
-</package>
 </packages>
 <symbols>
-<symbol name="CX5">
-<wire x1="0" y1="0" x2="0" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-2.032" width="0.1524" layer="94"/>
-<text x="-1.016" y="2.921" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.016" y="-7.239" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.032" y1="-2.032" x2="2.032" y2="-1.524" layer="94"/>
-<rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="-2.032" width="0.1524" layer="94"/>
-<rectangle x1="3.048" y1="-2.032" x2="7.112" y2="-1.524" layer="94"/>
-<rectangle x1="3.048" y1="-1.016" x2="7.112" y2="-0.508" layer="94"/>
-<wire x1="10.16" y1="0" x2="10.16" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="10.16" y2="-2.032" width="0.1524" layer="94"/>
-<rectangle x1="8.128" y1="-2.032" x2="12.192" y2="-1.524" layer="94"/>
-<rectangle x1="8.128" y1="-1.016" x2="12.192" y2="-0.508" layer="94"/>
-<pin name="1" x="10.16" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="10.16" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<wire x1="15.24" y1="0" x2="15.24" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="-2.54" x2="15.24" y2="-2.032" width="0.1524" layer="94"/>
-<rectangle x1="13.208" y1="-2.032" x2="17.272" y2="-1.524" layer="94"/>
-<rectangle x1="13.208" y1="-1.016" x2="17.272" y2="-0.508" layer="94"/>
-<wire x1="20.32" y1="0" x2="20.32" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="20.32" y1="-2.54" x2="20.32" y2="-2.032" width="0.1524" layer="94"/>
-<rectangle x1="18.288" y1="-2.032" x2="22.352" y2="-1.524" layer="94"/>
-<rectangle x1="18.288" y1="-1.016" x2="22.352" y2="-0.508" layer="94"/>
-<wire x1="10.16" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="2.54" x2="15.24" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="2.54" x2="20.32" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="20.32" y1="2.54" x2="20.32" y2="0" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="0" x2="10.16" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="0" x2="15.24" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="0" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="10.16" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="15.24" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="20.32" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="20.32" y1="-5.08" x2="20.32" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="-2.54" x2="15.24" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="10.16" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
-</symbol>
-<symbol name="CX4">
-<wire x1="0" y1="0" x2="0" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-2.032" width="0.1524" layer="94"/>
-<text x="-3.556" y="2.921" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.556" y="-7.239" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.032" y1="-2.032" x2="2.032" y2="-1.524" layer="94"/>
-<rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="-2.032" width="0.1524" layer="94"/>
-<rectangle x1="3.048" y1="-2.032" x2="7.112" y2="-1.524" layer="94"/>
-<rectangle x1="3.048" y1="-1.016" x2="7.112" y2="-0.508" layer="94"/>
-<wire x1="10.16" y1="0" x2="10.16" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="10.16" y2="-2.032" width="0.1524" layer="94"/>
-<rectangle x1="8.128" y1="-2.032" x2="12.192" y2="-1.524" layer="94"/>
-<rectangle x1="8.128" y1="-1.016" x2="12.192" y2="-0.508" layer="94"/>
-<pin name="1" x="7.62" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="7.62" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<wire x1="15.24" y1="0" x2="15.24" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="-2.54" x2="15.24" y2="-2.032" width="0.1524" layer="94"/>
-<rectangle x1="13.208" y1="-2.032" x2="17.272" y2="-1.524" layer="94"/>
-<rectangle x1="13.208" y1="-1.016" x2="17.272" y2="-0.508" layer="94"/>
-<wire x1="10.16" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="2.54" x2="15.24" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="0" x2="10.16" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="0" x2="15.24" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="0" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="10.16" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="15.24" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="-2.54" x2="15.24" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="10.16" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
-</symbol>
 </symbols>
 <devicesets>
-<deviceset name="C_0603X4" prefix="C">
-<gates>
-<gate name="G$1" symbol="CX4" x="-7.62" y="-5.08"/>
-</gates>
-<devices>
-<device name="" package="R0603X4">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="C_0603X5" prefix="C">
-<gates>
-<gate name="G$1" symbol="CX5" x="-10.16" y="-5.08"/>
-</gates>
-<devices>
-<device name="" package="R0603X5">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="C_0805X4" prefix="C">
-<gates>
-<gate name="G$1" symbol="CX4" x="-7.62" y="-5.08"/>
-</gates>
-<devices>
-<device name="" package="R0805X4">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="C_0805X5" prefix="C">
-<gates>
-<gate name="G$1" symbol="CX5" x="-10.16" y="-5.08"/>
-</gates>
-<devices>
-<device name="" package="R0805X5">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </drawing>
