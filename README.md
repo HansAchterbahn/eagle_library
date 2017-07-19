@@ -30,15 +30,18 @@ In this place you can find some libraries I wrote for the PCB CAD Programm Eagle
   - SJ
   - SJ2W
 - h8-misc.lbr
-  - C_0603x4
-  - C_0603x5
-  - C_0805x4
-  - C_0805x5
+  - ...
 - h8-optic.lbr
   - OSRAM\_RGB-LED\_LRTB-GFTM
   - TOP-CA-788BS
 - h8-pinheader.lbr
   - modified std lbr
+- h8-rlc
+  - C_0603x4
+  - C_0603x5
+  - C_0805x4
+  - C_0805x5
+  - POT_RK09K
 - h8-switch
   - TAC_SWITCH
   - Joystick Alps RKJXK1210/1220
@@ -55,5 +58,4 @@ In this place you can find some libraries I wrote for the PCB CAD Programm Eagle
     - Arduino Mini
     - Arduino Nano
     - Arduino Uno
-  
-  
+
