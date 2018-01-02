@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1039,60 +1039,60 @@ shrink quad flat pack, square</description>
 </packages>
 <symbols>
 <symbol name="PORT_A_L">
-<wire x1="7.62" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
-<text x="-2.54" y="10.16" size="1.27" layer="95">&gt;NAME</text>
-<pin name="PA0" x="-7.62" y="7.62" length="middle"/>
-<pin name="PA1" x="-7.62" y="5.08" length="middle"/>
-<pin name="PA2" x="-7.62" y="2.54" length="middle"/>
-<pin name="PA3" x="-7.62" y="0" length="middle"/>
-<pin name="PA4" x="-7.62" y="-2.54" length="middle"/>
-<pin name="PA5" x="-7.62" y="-5.08" length="middle"/>
-<pin name="PA6" x="-7.62" y="-7.62" length="middle"/>
-<pin name="PA7" x="-7.62" y="-10.16" length="middle"/>
+<wire x1="2.54" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<text x="-7.62" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<pin name="PA0" x="-12.7" y="7.62" length="middle"/>
+<pin name="PA1" x="-12.7" y="5.08" length="middle"/>
+<pin name="PA2" x="-12.7" y="2.54" length="middle"/>
+<pin name="PA3" x="-12.7" y="0" length="middle"/>
+<pin name="PA4" x="-12.7" y="-2.54" length="middle"/>
+<pin name="PA5" x="-12.7" y="-5.08" length="middle"/>
+<pin name="PA6" x="-12.7" y="-7.62" length="middle"/>
+<pin name="PA7" x="-12.7" y="-10.16" length="middle"/>
 </symbol>
 <symbol name="PORT_A_H">
-<wire x1="7.62" y1="12.7" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="12.7" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<text x="-2.54" y="12.7" size="1.27" layer="95">&gt;NAME</text>
-<pin name="PA8" x="-7.62" y="10.16" length="middle"/>
-<pin name="PA9" x="-7.62" y="7.62" length="middle"/>
-<pin name="PA10" x="-7.62" y="5.08" length="middle"/>
-<pin name="PA11" x="-7.62" y="2.54" length="middle"/>
-<pin name="PA12" x="-7.62" y="0" length="middle"/>
-<pin name="PA13" x="-7.62" y="-2.54" length="middle"/>
-<pin name="PA14" x="-7.62" y="-5.08" length="middle"/>
-<pin name="PA15" x="-7.62" y="-7.62" length="middle"/>
+<wire x1="2.54" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<text x="-7.62" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<pin name="PA8" x="-12.7" y="7.62" length="middle"/>
+<pin name="PA9" x="-12.7" y="5.08" length="middle"/>
+<pin name="PA10" x="-12.7" y="2.54" length="middle"/>
+<pin name="PA11" x="-12.7" y="0" length="middle"/>
+<pin name="PA12" x="-12.7" y="-2.54" length="middle"/>
+<pin name="PA13" x="-12.7" y="-5.08" length="middle"/>
+<pin name="PA14" x="-12.7" y="-7.62" length="middle"/>
+<pin name="PA15" x="-12.7" y="-10.16" length="middle"/>
 </symbol>
 <symbol name="PORT_B_L">
-<wire x1="-5.08" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="12.7" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
-<text x="-5.08" y="12.7" size="1.27" layer="95">&gt;NAME</text>
-<pin name="PB0" x="10.16" y="10.16" length="middle" rot="R180"/>
-<pin name="PB1" x="10.16" y="7.62" length="middle" rot="R180"/>
-<pin name="PB2" x="10.16" y="5.08" length="middle" rot="R180"/>
-<pin name="PB3" x="10.16" y="2.54" length="middle" rot="R180"/>
-<pin name="PB4" x="10.16" y="0" length="middle" rot="R180"/>
-<pin name="PB5" x="10.16" y="-2.54" length="middle" rot="R180"/>
-<pin name="PB6" x="10.16" y="-5.08" length="middle" rot="R180"/>
-<pin name="PB7" x="10.16" y="-7.62" length="middle" rot="R180"/>
+<wire x1="-2.54" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<text x="-2.54" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<pin name="PB0" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="PB1" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="PB2" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="PB3" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="PB4" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="PB5" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="PB6" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="PB7" x="12.7" y="-10.16" length="middle" rot="R180"/>
 </symbol>
 <symbol name="PORT_B_H">
-<wire x1="-5.08" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="10.16" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
-<text x="-5.08" y="10.16" size="1.27" layer="95">&gt;NAME</text>
-<pin name="PB8" x="10.16" y="7.62" length="middle" rot="R180"/>
-<pin name="PB9" x="10.16" y="5.08" length="middle" rot="R180"/>
-<pin name="PB10" x="10.16" y="2.54" length="middle" rot="R180"/>
-<pin name="PB11" x="10.16" y="0" length="middle" rot="R180"/>
-<pin name="PB12" x="10.16" y="-2.54" length="middle" rot="R180"/>
-<pin name="PB13" x="10.16" y="-5.08" length="middle" rot="R180"/>
-<pin name="PB14" x="10.16" y="-7.62" length="middle" rot="R180"/>
-<pin name="PB15" x="10.16" y="-10.16" length="middle" rot="R180"/>
+<wire x1="-2.54" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<text x="-2.54" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<pin name="PB8" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="PB9" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="PB10" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="PB11" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="PB12" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="PB13" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="PB14" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="PB15" x="12.7" y="-10.16" length="middle" rot="R180"/>
 </symbol>
 <symbol name="VCC_VDD_S">
 <wire x1="5.08" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
@@ -1142,60 +1142,60 @@ shrink quad flat pack, square</description>
 <pin name="BOOT0" x="10.16" y="-2.54" length="middle" direction="in" rot="R180"/>
 </symbol>
 <symbol name="PORT_C_L">
-<wire x1="5.08" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="12.7" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<text x="-5.08" y="12.7" size="1.27" layer="95">&gt;NAME</text>
-<pin name="PC0" x="-10.16" y="10.16" length="middle"/>
-<pin name="PC1" x="-10.16" y="7.62" length="middle"/>
-<pin name="PC2" x="-10.16" y="5.08" length="middle"/>
-<pin name="PC3" x="-10.16" y="2.54" length="middle"/>
-<pin name="PC4" x="-10.16" y="0" length="middle"/>
-<pin name="PC5" x="-10.16" y="-2.54" length="middle"/>
-<pin name="PC6" x="-10.16" y="-5.08" length="middle"/>
-<pin name="PC7" x="-10.16" y="-7.62" length="middle"/>
+<wire x1="2.54" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<text x="-7.62" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<pin name="PC0" x="-12.7" y="7.62" length="middle"/>
+<pin name="PC1" x="-12.7" y="5.08" length="middle"/>
+<pin name="PC2" x="-12.7" y="2.54" length="middle"/>
+<pin name="PC3" x="-12.7" y="0" length="middle"/>
+<pin name="PC4" x="-12.7" y="-2.54" length="middle"/>
+<pin name="PC5" x="-12.7" y="-5.08" length="middle"/>
+<pin name="PC6" x="-12.7" y="-7.62" length="middle"/>
+<pin name="PC7" x="-12.7" y="-10.16" length="middle"/>
 </symbol>
 <symbol name="PORT_C_H">
-<wire x1="5.08" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="10.16" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
-<text x="-5.08" y="10.16" size="1.27" layer="95">&gt;NAME</text>
-<pin name="PC13" x="-10.16" y="-5.08" length="middle"/>
-<pin name="PC14" x="-10.16" y="-7.62" length="middle"/>
-<pin name="PC15" x="-10.16" y="-10.16" length="middle"/>
-<pin name="PC8" x="-10.16" y="7.62" length="middle"/>
-<pin name="PC9" x="-10.16" y="5.08" length="middle"/>
-<pin name="PC10" x="-10.16" y="2.54" length="middle"/>
-<pin name="PC11" x="-10.16" y="0" length="middle"/>
-<pin name="PC12" x="-10.16" y="-2.54" length="middle"/>
+<wire x1="2.54" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<text x="-7.62" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<pin name="PC13" x="-12.7" y="-5.08" length="middle"/>
+<pin name="PC14" x="-12.7" y="-7.62" length="middle"/>
+<pin name="PC15" x="-12.7" y="-10.16" length="middle"/>
+<pin name="PC8" x="-12.7" y="7.62" length="middle"/>
+<pin name="PC9" x="-12.7" y="5.08" length="middle"/>
+<pin name="PC10" x="-12.7" y="2.54" length="middle"/>
+<pin name="PC11" x="-12.7" y="0" length="middle"/>
+<pin name="PC12" x="-12.7" y="-2.54" length="middle"/>
 </symbol>
 <symbol name="PORT_D_L">
-<wire x1="-7.62" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
-<wire x1="2.54" y1="10.16" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
-<text x="-7.62" y="10.16" size="1.27" layer="95">&gt;NAME</text>
-<pin name="PD0" x="7.62" y="7.62" length="middle" rot="R180"/>
-<pin name="PD1" x="7.62" y="5.08" length="middle" rot="R180"/>
-<pin name="PD2" x="7.62" y="2.54" length="middle" rot="R180"/>
-<pin name="PD3" x="7.62" y="0" length="middle" rot="R180"/>
-<pin name="PD4" x="7.62" y="-2.54" length="middle" rot="R180"/>
-<pin name="PD5" x="7.62" y="-5.08" length="middle" rot="R180"/>
-<pin name="PD6" x="7.62" y="-7.62" length="middle" rot="R180"/>
-<pin name="PD7" x="7.62" y="-10.16" length="middle" rot="R180"/>
+<wire x1="-2.54" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<text x="-2.54" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<pin name="PD0" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="PD1" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="PD2" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="PD3" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="PD4" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="PD5" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="PD6" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="PD7" x="12.7" y="-10.16" length="middle" rot="R180"/>
 </symbol>
 <symbol name="PORT_D_H">
-<wire x1="-7.62" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
-<wire x1="2.54" y1="10.16" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
-<text x="-7.62" y="10.16" size="1.27" layer="95">&gt;NAME</text>
-<pin name="PD8" x="7.62" y="7.62" length="middle" rot="R180"/>
-<pin name="PD9" x="7.62" y="5.08" length="middle" rot="R180"/>
-<pin name="PD10" x="7.62" y="2.54" length="middle" rot="R180"/>
-<pin name="PD11" x="7.62" y="0" length="middle" rot="R180"/>
-<pin name="PD12" x="7.62" y="-2.54" length="middle" rot="R180"/>
-<pin name="PD13" x="7.62" y="-5.08" length="middle" rot="R180"/>
-<pin name="PD14" x="7.62" y="-7.62" length="middle" rot="R180"/>
-<pin name="PD15" x="7.62" y="-10.16" length="middle" rot="R180"/>
+<wire x1="-2.54" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<text x="-2.54" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<pin name="PD8" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="PD9" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="PD10" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="PD11" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="PD12" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="PD13" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="PD14" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="PD15" x="12.7" y="-10.16" length="middle" rot="R180"/>
 </symbol>
 <symbol name="PORT_E_L">
 <wire x1="2.54" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
@@ -1212,34 +1212,34 @@ shrink quad flat pack, square</description>
 <pin name="PE7" x="-12.7" y="-10.16" length="middle"/>
 </symbol>
 <symbol name="PORT_E_H">
-<wire x1="5.08" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="10.16" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
-<text x="-5.08" y="10.16" size="1.27" layer="95">&gt;NAME</text>
-<pin name="PE8" x="-10.16" y="7.62" length="middle"/>
-<pin name="PE9" x="-10.16" y="5.08" length="middle"/>
-<pin name="PE10" x="-10.16" y="2.54" length="middle"/>
-<pin name="PE11" x="-10.16" y="0" length="middle"/>
-<pin name="PE12" x="-10.16" y="-2.54" length="middle"/>
-<pin name="PE13" x="-10.16" y="-5.08" length="middle"/>
-<pin name="PE14" x="-10.16" y="-7.62" length="middle"/>
-<pin name="PE15" x="-10.16" y="-10.16" length="middle"/>
+<wire x1="2.54" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<text x="-7.62" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<pin name="PE8" x="-12.7" y="7.62" length="middle"/>
+<pin name="PE9" x="-12.7" y="5.08" length="middle"/>
+<pin name="PE10" x="-12.7" y="2.54" length="middle"/>
+<pin name="PE11" x="-12.7" y="0" length="middle"/>
+<pin name="PE12" x="-12.7" y="-2.54" length="middle"/>
+<pin name="PE13" x="-12.7" y="-5.08" length="middle"/>
+<pin name="PE14" x="-12.7" y="-7.62" length="middle"/>
+<pin name="PE15" x="-12.7" y="-10.16" length="middle"/>
 </symbol>
 <symbol name="VCC_VSS_L">
-<wire x1="2.54" y1="27.94" x2="-7.62" y2="27.94" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-27.94" x2="2.54" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="27.94" x2="-7.62" y2="-27.94" width="0.254" layer="94"/>
-<text x="-7.62" y="27.94" size="1.27" layer="95">&gt;NAME</text>
-<pin name="VDD_1" x="-12.7" y="25.4" length="middle" direction="pwr"/>
-<pin name="VDD_2" x="-12.7" y="20.32" length="middle" direction="pwr"/>
-<pin name="VDD_3" x="-12.7" y="15.24" length="middle" direction="pwr"/>
-<pin name="VSS_1" x="-12.7" y="-5.08" length="middle" direction="pwr"/>
-<pin name="VSS_2" x="-12.7" y="-10.16" length="middle" direction="pwr"/>
-<pin name="VSS_3" x="-12.7" y="-15.24" length="middle" direction="pwr"/>
-<pin name="VDD_4" x="-12.7" y="10.16" length="middle" direction="pwr"/>
-<pin name="VSS_4" x="-12.7" y="-20.32" length="middle" direction="pwr"/>
-<pin name="VDD_5" x="-12.7" y="5.08" length="middle" direction="pwr"/>
-<pin name="VSS_5" x="-12.7" y="-25.4" length="middle" direction="pwr"/>
+<wire x1="2.54" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-45.72" x2="2.54" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-45.72" width="0.254" layer="94"/>
+<text x="-7.62" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<pin name="VDD_1" x="-12.7" y="7.62" length="middle" direction="pwr"/>
+<pin name="VDD_2" x="-12.7" y="2.54" length="middle" direction="pwr"/>
+<pin name="VDD_3" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
+<pin name="VSS_1" x="-12.7" y="-22.86" length="middle" direction="pwr"/>
+<pin name="VSS_2" x="-12.7" y="-27.94" length="middle" direction="pwr"/>
+<pin name="VSS_3" x="-12.7" y="-33.02" length="middle" direction="pwr"/>
+<pin name="VDD_4" x="-12.7" y="-7.62" length="middle" direction="pwr"/>
+<pin name="VSS_4" x="-12.7" y="-38.1" length="middle" direction="pwr"/>
+<pin name="VDD_5" x="-12.7" y="-12.7" length="middle" direction="pwr"/>
+<pin name="VSS_5" x="-12.7" y="-43.18" length="middle" direction="pwr"/>
 </symbol>
 <symbol name="BAT_AN_L">
 <wire x1="-5.08" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
@@ -1334,12 +1334,12 @@ shrink quad flat pack, square</description>
 <pin name="MTN4" x="5.08" y="-5.08" visible="pad" length="short" rot="R90"/>
 </symbol>
 <symbol name="PORT_H_2">
-<wire x1="-7.62" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<text x="-7.62" y="2.54" size="1.27" layer="95">&gt;NAME</text>
-<pin name="PH0/OSC&lt;=" x="7.62" y="0" length="middle" rot="R180"/>
-<pin name="PH1/OSC=&gt;" x="7.62" y="-2.54" length="middle" rot="R180"/>
+<wire x1="-2.54" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<pin name="PH0/OSC&lt;=" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="PH1/OSC=&gt;" x="12.7" y="-2.54" length="middle" rot="R180"/>
 </symbol>
 <symbol name="PORT_D_1">
 <wire x1="-7.62" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
@@ -1491,12 +1491,12 @@ shrink quad flat pack, square</description>
 <pin name="PB7" x="10.16" y="-7.62" length="middle" rot="R180"/>
 </symbol>
 <symbol name="PORT_F_2">
-<wire x1="-7.62" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<text x="-7.62" y="2.54" size="1.27" layer="95">&gt;NAME</text>
-<pin name="PF0/OSC_I" x="7.62" y="0" length="middle" rot="R180"/>
-<pin name="PF1/OSC_O" x="7.62" y="-2.54" length="middle" rot="R180"/>
+<wire x1="-2.54" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<pin name="PF0/OSC_I" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="PF1/OSC_O" x="12.7" y="-2.54" length="middle" rot="R180"/>
 </symbol>
 <symbol name="VCC_VDD_XS">
 <wire x1="5.08" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
@@ -1508,6 +1508,35 @@ shrink quad flat pack, square</description>
 <pin name="VDDA/VREF" x="-10.16" y="0" length="middle" direction="pwr"/>
 <pin name="VSS_1" x="-10.16" y="-10.16" length="middle" direction="pwr"/>
 <pin name="VSS_2" x="-10.16" y="-15.24" length="middle" direction="pwr"/>
+</symbol>
+<symbol name="BAT_AN_M+">
+<description>&lt;p&gt;&lt;author&gt;Created by Hans Achterbahn &lt;br /&gt; (&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)&lt;/author&gt;&lt;p&gt;</description>
+<wire x1="-5.08" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="12.7" size="1.27" layer="95">&gt;NAME</text>
+<pin name="VBAT" x="10.16" y="10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="VSSA" x="10.16" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDDA" x="10.16" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="VREF+" x="10.16" y="-2.54" length="middle" direction="in" rot="R180"/>
+</symbol>
+<symbol name="VCC_VSS_L_2">
+<wire x1="2.54" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-27.94" x2="2.54" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-27.94" width="0.254" layer="94"/>
+<text x="-7.62" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<pin name="VDD_1" x="-12.7" y="7.62" length="middle" direction="pwr"/>
+<pin name="VDD_2" x="-12.7" y="5.08" length="middle" direction="pwr"/>
+<pin name="VDD_3" x="-12.7" y="2.54" length="middle" direction="pwr"/>
+<pin name="VSS_1" x="-12.7" y="-17.78" length="middle" direction="pwr"/>
+<pin name="VSS_2" x="-12.7" y="-20.32" length="middle" direction="pwr"/>
+<pin name="VSS_3" x="-12.7" y="-22.86" length="middle" direction="pwr"/>
+<pin name="VDD_4" x="-12.7" y="0" length="middle" direction="pwr"/>
+<pin name="VSS_4" x="-12.7" y="-25.4" length="middle" direction="pwr"/>
+<pin name="VDD_5" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
+<pin name="VDD_6" x="-12.7" y="-5.08" length="middle" direction="pwr"/>
+<pin name="VCAP_1" x="-12.7" y="-10.16" length="middle" direction="pwr"/>
+<pin name="VCAP_2" x="-12.7" y="-12.7" length="middle" direction="pwr"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2960,6 +2989,141 @@ Documentary, Reference Manual and Datasheet: &lt;br /&gt;
 <connect gate="G$5" pin="VSS_2" pad="16"/>
 <connect gate="G$6" pin="BOOT0" pad="31"/>
 <connect gate="G$6" pin="NRST" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STM32F415VG" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;STM32 Mikrocontroller: STM32F415VGxx&lt;/b&gt;
+
+&lt;p&gt;
+Documentary, Reference Manual and Datasheet: &lt;br /&gt;
+&lt;a href="http://www.st.com/en/microcontrollers/stm32f415vg.html"&gt;http://www.st.com/en/microcontrollers/stm32f415vg.html&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;author&gt;Created by Hans Achterbahn &lt;br /&gt; (&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)&lt;/author&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$2" symbol="PORT_A_H" x="-27.94" y="12.7"/>
+<gate name="G$1" symbol="PORT_A_L" x="-27.94" y="38.1"/>
+<gate name="G$4" symbol="PORT_B_H" x="-20.32" y="12.7"/>
+<gate name="G$3" symbol="PORT_B_L" x="-20.32" y="38.1"/>
+<gate name="G$6" symbol="PORT_C_H" x="-27.94" y="-38.1"/>
+<gate name="G$5" symbol="PORT_C_L" x="-27.94" y="-12.7"/>
+<gate name="G$8" symbol="PORT_D_H" x="-20.32" y="-38.1"/>
+<gate name="G$7" symbol="PORT_D_L" x="-20.32" y="-12.7"/>
+<gate name="G$9" symbol="PORT_E_L" x="20.32" y="-2.54"/>
+<gate name="G$10" symbol="PORT_E_H" x="20.32" y="-27.94"/>
+<gate name="G$11" symbol="PORT_H_2" x="27.94" y="5.08"/>
+<gate name="G$13" symbol="BOOT_RST" x="30.48" y="22.86"/>
+<gate name="G$12" symbol="VCC_VSS_L_2" x="20.32" y="38.1"/>
+<gate name="G$14" symbol="BAT_AN_M+" x="30.48" y="35.56"/>
+</gates>
+<devices>
+<device name="" package="TQFP100">
+<connects>
+<connect gate="G$1" pin="PA0" pad="23"/>
+<connect gate="G$1" pin="PA1" pad="24"/>
+<connect gate="G$1" pin="PA2" pad="25"/>
+<connect gate="G$1" pin="PA3" pad="26"/>
+<connect gate="G$1" pin="PA4" pad="29"/>
+<connect gate="G$1" pin="PA5" pad="30"/>
+<connect gate="G$1" pin="PA6" pad="31"/>
+<connect gate="G$1" pin="PA7" pad="32"/>
+<connect gate="G$10" pin="PE10" pad="41"/>
+<connect gate="G$10" pin="PE11" pad="42"/>
+<connect gate="G$10" pin="PE12" pad="43"/>
+<connect gate="G$10" pin="PE13" pad="44"/>
+<connect gate="G$10" pin="PE14" pad="45"/>
+<connect gate="G$10" pin="PE15" pad="46"/>
+<connect gate="G$10" pin="PE8" pad="39"/>
+<connect gate="G$10" pin="PE9" pad="40"/>
+<connect gate="G$11" pin="PH0/OSC&lt;=" pad="12"/>
+<connect gate="G$11" pin="PH1/OSC=&gt;" pad="13"/>
+<connect gate="G$12" pin="VCAP_1" pad="49"/>
+<connect gate="G$12" pin="VCAP_2" pad="73"/>
+<connect gate="G$12" pin="VDD_1" pad="11"/>
+<connect gate="G$12" pin="VDD_2" pad="19"/>
+<connect gate="G$12" pin="VDD_3" pad="50"/>
+<connect gate="G$12" pin="VDD_4" pad="28"/>
+<connect gate="G$12" pin="VDD_5" pad="75"/>
+<connect gate="G$12" pin="VDD_6" pad="100"/>
+<connect gate="G$12" pin="VSS_1" pad="10"/>
+<connect gate="G$12" pin="VSS_2" pad="27"/>
+<connect gate="G$12" pin="VSS_3" pad="74"/>
+<connect gate="G$12" pin="VSS_4" pad="99"/>
+<connect gate="G$13" pin="BOOT0" pad="94"/>
+<connect gate="G$13" pin="NRST" pad="14"/>
+<connect gate="G$14" pin="VBAT" pad="6"/>
+<connect gate="G$14" pin="VDDA" pad="22"/>
+<connect gate="G$14" pin="VREF+" pad="21"/>
+<connect gate="G$14" pin="VSSA" pad="20"/>
+<connect gate="G$2" pin="PA10" pad="69"/>
+<connect gate="G$2" pin="PA11" pad="70"/>
+<connect gate="G$2" pin="PA12" pad="71"/>
+<connect gate="G$2" pin="PA13" pad="72"/>
+<connect gate="G$2" pin="PA14" pad="76"/>
+<connect gate="G$2" pin="PA15" pad="77"/>
+<connect gate="G$2" pin="PA8" pad="67"/>
+<connect gate="G$2" pin="PA9" pad="68"/>
+<connect gate="G$3" pin="PB0" pad="35"/>
+<connect gate="G$3" pin="PB1" pad="36"/>
+<connect gate="G$3" pin="PB2" pad="37"/>
+<connect gate="G$3" pin="PB3" pad="89"/>
+<connect gate="G$3" pin="PB4" pad="90"/>
+<connect gate="G$3" pin="PB5" pad="91"/>
+<connect gate="G$3" pin="PB6" pad="92"/>
+<connect gate="G$3" pin="PB7" pad="93"/>
+<connect gate="G$4" pin="PB10" pad="47"/>
+<connect gate="G$4" pin="PB11" pad="48"/>
+<connect gate="G$4" pin="PB12" pad="51"/>
+<connect gate="G$4" pin="PB13" pad="52"/>
+<connect gate="G$4" pin="PB14" pad="53"/>
+<connect gate="G$4" pin="PB15" pad="54"/>
+<connect gate="G$4" pin="PB8" pad="95"/>
+<connect gate="G$4" pin="PB9" pad="96"/>
+<connect gate="G$5" pin="PC0" pad="15"/>
+<connect gate="G$5" pin="PC1" pad="16"/>
+<connect gate="G$5" pin="PC2" pad="17"/>
+<connect gate="G$5" pin="PC3" pad="18"/>
+<connect gate="G$5" pin="PC4" pad="33"/>
+<connect gate="G$5" pin="PC5" pad="34"/>
+<connect gate="G$5" pin="PC6" pad="63"/>
+<connect gate="G$5" pin="PC7" pad="64"/>
+<connect gate="G$6" pin="PC10" pad="78"/>
+<connect gate="G$6" pin="PC11" pad="79"/>
+<connect gate="G$6" pin="PC12" pad="80"/>
+<connect gate="G$6" pin="PC13" pad="7"/>
+<connect gate="G$6" pin="PC14" pad="8"/>
+<connect gate="G$6" pin="PC15" pad="9"/>
+<connect gate="G$6" pin="PC8" pad="65"/>
+<connect gate="G$6" pin="PC9" pad="66"/>
+<connect gate="G$7" pin="PD0" pad="81"/>
+<connect gate="G$7" pin="PD1" pad="82"/>
+<connect gate="G$7" pin="PD2" pad="83"/>
+<connect gate="G$7" pin="PD3" pad="84"/>
+<connect gate="G$7" pin="PD4" pad="85"/>
+<connect gate="G$7" pin="PD5" pad="86"/>
+<connect gate="G$7" pin="PD6" pad="87"/>
+<connect gate="G$7" pin="PD7" pad="88"/>
+<connect gate="G$8" pin="PD10" pad="57"/>
+<connect gate="G$8" pin="PD11" pad="58"/>
+<connect gate="G$8" pin="PD12" pad="59"/>
+<connect gate="G$8" pin="PD13" pad="60"/>
+<connect gate="G$8" pin="PD14" pad="61"/>
+<connect gate="G$8" pin="PD15" pad="62"/>
+<connect gate="G$8" pin="PD8" pad="55"/>
+<connect gate="G$8" pin="PD9" pad="56"/>
+<connect gate="G$9" pin="PE0" pad="97"/>
+<connect gate="G$9" pin="PE1" pad="98"/>
+<connect gate="G$9" pin="PE2" pad="1"/>
+<connect gate="G$9" pin="PE3" pad="2"/>
+<connect gate="G$9" pin="PE4" pad="3"/>
+<connect gate="G$9" pin="PE5" pad="4"/>
+<connect gate="G$9" pin="PE6" pad="5"/>
+<connect gate="G$9" pin="PE7" pad="38"/>
 </connects>
 <technologies>
 <technology name=""/>
