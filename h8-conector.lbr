@@ -657,6 +657,304 @@ Documentary and Datasheet: &lt;br /&gt;
 <wire x1="8" y1="6" x2="6.73" y2="6" width="0.127" layer="21" curve="-180"/>
 <wire x1="25.78" y1="6" x2="24.51" y2="6" width="0.127" layer="21" curve="-180"/>
 </package>
+<package name="DF11-20DP-2DS">
+<description>&lt;b&gt;Hirose Connector: DF11-20DP-2DS&lt;/b&gt;
+
+&lt;p&gt;Right Angle Pin Header, can be used with &lt;br /&gt;
+• DF11CZ-20DS-2V, &lt;br /&gt;
+• DF11-20DS-2DSA, &lt;br /&gt;
+• DF11-20DS-2C and &lt;br /&gt;
+• DF11-20DS-2R26 &lt;/p&gt;
+
+&lt;p&gt;
+Homepage : &lt;a href="https://www.hirose.com/product/en/products/DF11/"&gt;https://www.hirose.com/product/en/products/DF11/&lt;/a&gt; &lt;br /&gt;
+Datasheet: &lt;a href="https://www.hirose.com/product/en/download_file/key_name/DF11/category/Catalog/doc_file_id/31688/?file_category_id=4&amp;item_id=37&amp;is_series=1"&gt;https://www.hirose.com/product/en/download_file/key_name/DF11/category/Catalog/doc_file_id/31688/?file_category_id=4&amp;item_id=37&amp;is_series=1&lt;/a&gt; &lt;br /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;author&gt;Created by Hans Achterbahn &lt;br /&gt; (&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)&lt;/author&gt;&lt;p&gt;</description>
+<pad name="19" x="2" y="-9.7" drill="0.6"/>
+<pad name="17" x="4" y="-9.7" drill="0.6"/>
+<pad name="15" x="6" y="-9.7" drill="0.6"/>
+<pad name="13" x="8" y="-9.7" drill="0.6"/>
+<pad name="11" x="10" y="-9.7" drill="0.6"/>
+<pad name="9" x="12" y="-9.7" drill="0.6"/>
+<pad name="7" x="14" y="-9.7" drill="0.6"/>
+<pad name="5" x="16" y="-9.7" drill="0.6"/>
+<pad name="3" x="18" y="-9.7" drill="0.6"/>
+<pad name="1" x="20" y="-9.7" drill="0.6"/>
+<pad name="20" x="2" y="-7.7" drill="0.6"/>
+<pad name="18" x="4" y="-7.7" drill="0.6"/>
+<pad name="16" x="6" y="-7.7" drill="0.6"/>
+<pad name="14" x="8" y="-7.7" drill="0.6"/>
+<pad name="12" x="10" y="-7.7" drill="0.6"/>
+<pad name="10" x="12" y="-7.7" drill="0.6"/>
+<pad name="8" x="14" y="-7.7" drill="0.6"/>
+<pad name="6" x="16" y="-7.7" drill="0.6"/>
+<pad name="4" x="18" y="-7.7" drill="0.6"/>
+<pad name="2" x="20" y="-7.7" drill="0.6"/>
+<wire x1="0" y1="-10" x2="1" y2="-10" width="0.127" layer="21"/>
+<wire x1="21" y1="-10" x2="22" y2="-10" width="0.127" layer="21"/>
+<wire x1="1" y1="-6.45" x2="21" y2="-6.45" width="0.127" layer="21"/>
+<wire x1="1" y1="-1.95" x2="2.75" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="3.25" y1="-1.95" x2="18.75" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="19.25" y1="-1.95" x2="21" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="0" y1="-10" x2="0" y2="-6.45" width="0.127" layer="21"/>
+<wire x1="0" y1="-6.45" x2="0" y2="-5" width="0.127" layer="21"/>
+<wire x1="0" y1="-5" x2="0" y2="-4.75" width="0.127" layer="21"/>
+<wire x1="0" y1="-4.75" x2="0" y2="-2.7" width="0.127" layer="21"/>
+<wire x1="0" y1="-2.7" x2="0" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="22" y1="-10" x2="22" y2="-6.45" width="0.127" layer="21"/>
+<wire x1="22" y1="-6.45" x2="22" y2="-5" width="0.127" layer="21"/>
+<wire x1="22" y1="-5" x2="22" y2="-4.75" width="0.127" layer="21"/>
+<wire x1="22" y1="-4.75" x2="22" y2="-2.7" width="0.127" layer="21"/>
+<wire x1="22" y1="-2.7" x2="22" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="1" y2="0" width="0.127" layer="21"/>
+<wire x1="21" y1="0" x2="22" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="22" y1="0" x2="22" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="1" y1="0" x2="1" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="21" y1="0" x2="21" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="1" y1="-10" x2="1" y2="-6.45" width="0.127" layer="21"/>
+<wire x1="21" y1="-10" x2="21" y2="-6.45" width="0.127" layer="21"/>
+<wire x1="0" y1="-5" x2="2.5" y2="-5" width="0.127" layer="21"/>
+<rectangle x1="13.75" y1="-1.95" x2="14.25" y2="-1.45" layer="21"/>
+<rectangle x1="3.75" y1="-1.95" x2="4.25" y2="-1.45" layer="21"/>
+<rectangle x1="5.75" y1="-1.95" x2="6.25" y2="-1.45" layer="21"/>
+<rectangle x1="19.75" y1="-1.95" x2="20.25" y2="-1.45" layer="21"/>
+<rectangle x1="7.75" y1="-1.95" x2="8.25" y2="-1.45" layer="21"/>
+<rectangle x1="17.75" y1="-1.95" x2="18.25" y2="-1.45" layer="21"/>
+<rectangle x1="9.75" y1="-1.95" x2="10.25" y2="-1.45" layer="21"/>
+<rectangle x1="15.75" y1="-1.95" x2="16.25" y2="-1.45" layer="21"/>
+<rectangle x1="11.75" y1="-1.95" x2="12.25" y2="-1.45" layer="21"/>
+<rectangle x1="1.75" y1="-1.95" x2="2.25" y2="-1.45" layer="21"/>
+<rectangle x1="1.75" y1="-9.05" x2="2.25" y2="-8.35" layer="21"/>
+<wire x1="2.5" y1="-5" x2="3.5" y2="-5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-5" x2="18.5" y2="-5" width="0.127" layer="21"/>
+<wire x1="18.5" y1="-5" x2="19.5" y2="-5" width="0.127" layer="21"/>
+<wire x1="19.5" y1="-5" x2="22" y2="-5" width="0.127" layer="21"/>
+<wire x1="2.75" y1="-4.75" x2="2.75" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="3.25" y1="-4.75" x2="3.25" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="19.25" y1="-4.75" x2="19.25" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="18.75" y1="-4.75" x2="18.75" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="3.25" y1="-4.75" x2="18.75" y2="-4.75" width="0.127" layer="21"/>
+<wire x1="0" y1="-4.75" x2="1" y2="-4.75" width="0.127" layer="21"/>
+<wire x1="1" y1="-4.75" x2="1.5" y2="-4.75" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-4.75" x2="2.75" y2="-4.75" width="0.127" layer="21"/>
+<wire x1="2.75" y1="-4.75" x2="3.25" y2="-4.75" width="0.127" layer="21"/>
+<wire x1="18.75" y1="-4.75" x2="19.25" y2="-4.75" width="0.127" layer="21"/>
+<wire x1="19.25" y1="-4.75" x2="20.5" y2="-4.75" width="0.127" layer="21"/>
+<wire x1="20.5" y1="-4.75" x2="21" y2="-4.75" width="0.127" layer="21"/>
+<wire x1="21" y1="-4.75" x2="22" y2="-4.75" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-4.75" x2="1.5" y2="-2.95" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2.95" x2="1" y2="-2.95" width="0.127" layer="21"/>
+<wire x1="21" y1="-2.95" x2="20.5" y2="-2.95" width="0.127" layer="21"/>
+<wire x1="20.5" y1="-2.95" x2="20.5" y2="-4.75" width="0.127" layer="21"/>
+<wire x1="1" y1="-4.75" x2="1" y2="-2.95" width="0.127" layer="21"/>
+<wire x1="21" y1="-2.95" x2="21" y2="-4.75" width="0.127" layer="21"/>
+<rectangle x1="2.75" y1="-4.75" x2="3.25" y2="-1.9" layer="21"/>
+<rectangle x1="1" y1="-4.7" x2="1.5" y2="-2.95" layer="21"/>
+<rectangle x1="18.75" y1="-4.75" x2="19.25" y2="-1.9" layer="21"/>
+<rectangle x1="20.5" y1="-4.7" x2="21" y2="-2.95" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="19.75" y="-2.2"/>
+<vertex x="20" y="-2.95"/>
+<vertex x="20.25" y="-2.2"/>
+</polygon>
+<rectangle x1="1.75" y1="-7.05" x2="2.25" y2="-6.45" layer="21"/>
+<rectangle x1="1.75" y1="-8.35" x2="2.25" y2="-7.05" layer="51"/>
+<rectangle x1="1.75" y1="-9.8" x2="2.25" y2="-9.05" layer="51"/>
+<rectangle x1="3.75" y1="-9.05" x2="4.25" y2="-8.35" layer="21"/>
+<rectangle x1="3.75" y1="-7.05" x2="4.25" y2="-6.45" layer="21"/>
+<rectangle x1="3.75" y1="-8.35" x2="4.25" y2="-7.05" layer="51"/>
+<rectangle x1="3.75" y1="-9.8" x2="4.25" y2="-9.05" layer="51"/>
+<rectangle x1="5.75" y1="-9.05" x2="6.25" y2="-8.35" layer="21"/>
+<rectangle x1="5.75" y1="-7.05" x2="6.25" y2="-6.45" layer="21"/>
+<rectangle x1="5.75" y1="-8.35" x2="6.25" y2="-7.05" layer="51"/>
+<rectangle x1="5.75" y1="-9.8" x2="6.25" y2="-9.05" layer="51"/>
+<rectangle x1="7.75" y1="-9.05" x2="8.25" y2="-8.35" layer="21"/>
+<rectangle x1="7.75" y1="-7.05" x2="8.25" y2="-6.45" layer="21"/>
+<rectangle x1="7.75" y1="-8.35" x2="8.25" y2="-7.05" layer="51"/>
+<rectangle x1="7.75" y1="-9.8" x2="8.25" y2="-9.05" layer="51"/>
+<rectangle x1="9.75" y1="-9.05" x2="10.25" y2="-8.35" layer="21"/>
+<rectangle x1="9.75" y1="-7.05" x2="10.25" y2="-6.45" layer="21"/>
+<rectangle x1="9.75" y1="-8.35" x2="10.25" y2="-7.05" layer="51"/>
+<rectangle x1="9.75" y1="-9.8" x2="10.25" y2="-9.05" layer="51"/>
+<rectangle x1="11.75" y1="-9.05" x2="12.25" y2="-8.35" layer="21"/>
+<rectangle x1="11.75" y1="-7.05" x2="12.25" y2="-6.45" layer="21"/>
+<rectangle x1="11.75" y1="-8.35" x2="12.25" y2="-7.05" layer="51"/>
+<rectangle x1="11.75" y1="-9.8" x2="12.25" y2="-9.05" layer="51"/>
+<rectangle x1="13.75" y1="-9.05" x2="14.25" y2="-8.35" layer="21"/>
+<rectangle x1="13.75" y1="-7.05" x2="14.25" y2="-6.45" layer="21"/>
+<rectangle x1="13.75" y1="-8.35" x2="14.25" y2="-7.05" layer="51"/>
+<rectangle x1="13.75" y1="-9.8" x2="14.25" y2="-9.05" layer="51"/>
+<rectangle x1="15.75" y1="-9.05" x2="16.25" y2="-8.35" layer="21"/>
+<rectangle x1="15.75" y1="-7.05" x2="16.25" y2="-6.45" layer="21"/>
+<rectangle x1="15.75" y1="-8.35" x2="16.25" y2="-7.05" layer="51"/>
+<rectangle x1="15.75" y1="-9.8" x2="16.25" y2="-9.05" layer="51"/>
+<rectangle x1="17.75" y1="-9.05" x2="18.25" y2="-8.35" layer="21"/>
+<rectangle x1="17.75" y1="-7.05" x2="18.25" y2="-6.45" layer="21"/>
+<rectangle x1="17.75" y1="-8.35" x2="18.25" y2="-7.05" layer="51"/>
+<rectangle x1="17.75" y1="-9.8" x2="18.25" y2="-9.05" layer="51"/>
+<rectangle x1="19.75" y1="-9.05" x2="20.25" y2="-8.35" layer="21"/>
+<rectangle x1="19.75" y1="-7.05" x2="20.25" y2="-6.45" layer="21"/>
+<rectangle x1="19.75" y1="-8.35" x2="20.25" y2="-7.05" layer="51"/>
+<rectangle x1="19.75" y1="-9.8" x2="20.25" y2="-9.05" layer="51"/>
+</package>
+<package name="DF11CZ-20DS-2V">
+<description>&lt;b&gt;Hirose Connector: DF11CZ-20DS-2V&lt;/b&gt;
+
+&lt;p&gt;Right Angle Pin Header, can be used with &lt;br /&gt;
+• DF11-20DP-2DSA, &lt;br /&gt;
+• DF11-20DP-2DS, &lt;br /&gt;
+• DF11-20DP-2V, &lt;br /&gt;
+• DF11-20DEP-2C &lt;br /&gt;
+• DF11-20DEP-2A &lt;/p&gt;
+
+&lt;p&gt;
+Homepage : &lt;a href="https://www.hirose.com/product/en/products/DF11/"&gt;https://www.hirose.com/product/en/products/DF11/&lt;/a&gt; &lt;br /&gt;
+Datasheet: &lt;a href="https://www.hirose.com/product/en/download_file/key_name/DF11/category/Catalog/doc_file_id/31688/?file_category_id=4&amp;item_id=37&amp;is_series=1"&gt;https://www.hirose.com/product/en/download_file/key_name/DF11/category/Catalog/doc_file_id/31688/?file_category_id=4&amp;item_id=37&amp;is_series=1&lt;/a&gt; &lt;br /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;author&gt;Created by Hans Achterbahn &lt;br /&gt; (&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)&lt;/author&gt;&lt;p&gt;</description>
+<smd name="2" x="0" y="3.55" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="4" x="2" y="3.55" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="6" x="4" y="3.55" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="8" x="6" y="3.55" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="10" x="8" y="3.55" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="12" x="10" y="3.55" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="14" x="12" y="3.55" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="16" x="14" y="3.55" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="18" x="16" y="3.55" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="20" x="18" y="3.55" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="1" x="0" y="-3.55" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="3" x="2" y="-3.55" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="5" x="4" y="-3.55" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="7" x="6" y="-3.55" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="9" x="8" y="-3.55" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="11" x="10" y="-3.55" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="13" x="12" y="-3.55" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="15" x="14" y="-3.55" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="17" x="16" y="-3.55" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="19" x="18" y="-3.55" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="NC1" x="-4.35" y="0" dx="2.8" dy="2" layer="1" rot="R90"/>
+<smd name="NC2" x="22.35" y="0" dx="2.8" dy="2" layer="1" rot="R90"/>
+<wire x1="-2.5" y1="2.5" x2="20" y2="2.5" width="0.127" layer="21"/>
+<wire x1="20" y1="2" x2="20" y2="0.5" width="0.127" layer="21"/>
+<wire x1="20" y1="0.5" x2="20" y2="0" width="0.127" layer="21"/>
+<wire x1="20" y1="0" x2="20" y2="-2" width="0.127" layer="21"/>
+<wire x1="20" y1="-2.5" x2="17.25" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="17.25" y1="-2.5" x2="16.75" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="16.75" y1="-2.5" x2="1.25" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.25" y1="-2.5" x2="0.75" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="0.75" y1="-2.5" x2="0.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="-2" x2="-2" y2="0" width="0.127" layer="21"/>
+<wire x1="-2" y1="0" x2="-2" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="0.5" x2="-2" y2="2" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="-3.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="2.5" x2="-3.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="20" y1="2.5" x2="21.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="21.5" y1="2.5" x2="21.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="21.5" y1="-2.5" x2="20" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="1.5" x2="0.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="1.5" x2="0.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="0.5" x2="-0.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="0.5" x2="-0.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="2.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="0.5" x2="1.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="1.5" x2="4.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="4.5" y1="1.5" x2="4.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="4.5" y1="0.5" x2="3.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="0.5" x2="3.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="5.5" y1="1.5" x2="6.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="6.5" y1="1.5" x2="6.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="6.5" y1="0.5" x2="5.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="5.5" y1="0.5" x2="5.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="7.5" y1="1.5" x2="8.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="8.5" y1="1.5" x2="8.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="8.5" y1="0.5" x2="7.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="7.5" y1="0.5" x2="7.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="9.5" y1="1.5" x2="10.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="10.5" y1="1.5" x2="10.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="10.5" y1="0.5" x2="9.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="9.5" y1="0.5" x2="9.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="11.5" y1="1.5" x2="12.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="12.5" y1="1.5" x2="12.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="12.5" y1="0.5" x2="11.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="11.5" y1="0.5" x2="11.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="13.5" y1="1.5" x2="14.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="14.5" y1="1.5" x2="14.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="14.5" y1="0.5" x2="13.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="13.5" y1="0.5" x2="13.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-0.5" x2="0.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-0.5" x2="0.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-1.5" x2="-0.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-1.5" x2="-0.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-0.5" x2="2.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-0.5" x2="2.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-0.5" x2="4.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-0.5" x2="4.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-1.5" x2="3.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-1.5" x2="3.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="5.5" y1="-0.5" x2="6.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="6.5" y1="-0.5" x2="6.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="6.5" y1="-1.5" x2="5.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="5.5" y1="-1.5" x2="5.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-0.5" x2="8.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="8.5" y1="-0.5" x2="8.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="8.5" y1="-1.5" x2="7.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-1.5" x2="7.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="9.5" y1="-0.5" x2="10.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="10.5" y1="-0.5" x2="10.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="10.5" y1="-1.5" x2="9.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="9.5" y1="-1.5" x2="9.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="11.5" y1="-0.5" x2="12.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="12.5" y1="-0.5" x2="12.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="12.5" y1="-1.5" x2="11.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="11.5" y1="-1.5" x2="11.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="13.5" y1="-0.5" x2="14.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="14.5" y1="-0.5" x2="14.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="14.5" y1="-1.5" x2="13.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="13.5" y1="-1.5" x2="13.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="15.5" y1="1.5" x2="16.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="16.5" y1="1.5" x2="16.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="16.5" y1="0.5" x2="15.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="15.5" y1="0.5" x2="15.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="17.5" y1="1.5" x2="18.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="18.5" y1="1.5" x2="18.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="18.5" y1="0.5" x2="17.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="17.5" y1="0.5" x2="17.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="15.5" y1="-0.5" x2="16.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="16.5" y1="-0.5" x2="16.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="16.5" y1="-1.5" x2="15.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="15.5" y1="-1.5" x2="15.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="17.5" y1="-0.5" x2="18.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="18.5" y1="-0.5" x2="18.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="18.5" y1="-1.5" x2="17.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="17.5" y1="-1.5" x2="17.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="2" x2="20" y2="2" width="0.127" layer="21"/>
+<wire x1="20" y1="-2" x2="17.25" y2="-2" width="0.127" layer="21"/>
+<wire x1="17.25" y1="-2" x2="16.75" y2="-2" width="0.127" layer="21"/>
+<wire x1="16.75" y1="-2" x2="1.25" y2="-2" width="0.127" layer="21"/>
+<wire x1="1.25" y1="-2" x2="0.75" y2="-2" width="0.127" layer="21"/>
+<wire x1="0.75" y1="-2" x2="0.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-2" x2="-2" y2="-2" width="0.127" layer="21"/>
+<wire x1="17.25" y1="-2" x2="17.25" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="16.75" y1="-2" x2="16.75" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.25" y1="-2" x2="1.25" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="0.75" y1="-2" x2="0.75" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="0.5" x2="-2.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="0.5" x2="-2.5" y2="0" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="0" x2="-2" y2="0" width="0.127" layer="21"/>
+<wire x1="20" y1="0.5" x2="20.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="20.5" y1="0.5" x2="20.5" y2="0" width="0.127" layer="21"/>
+<wire x1="20.5" y1="0" x2="20" y2="0" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="USB-5PIN">
@@ -832,9 +1130,115 @@ Documentary and Datasheet: &lt;br /&gt;
 <attribute name="DATASHEET" value="https://www.hirose.com/product/en/products/HIF3FC/HIF3FB%2D10DA%2D2.54DSA%2871%29/" constant="no"/>
 <attribute name="MF" value="Hirose" constant="no"/>
 <attribute name="MFN" value="HIF3FB-20DA-2.54DSA" constant="no"/>
-<attribute name="MOUSER" value="
-798-HIF3FB20DA254DSA " constant="no"/>
+<attribute name="MOUSER" value=" 798-HIF3FB20DA254DSA " constant="no"/>
 <attribute name="RS-ONLINE" value="608-1392" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DF11-20DP-2DS" prefix="X">
+<description>&lt;b&gt;Hirose Connector: DF11-20DP-2DS&lt;/b&gt;
+
+&lt;p&gt;Right Angle Pin Header, can be used with &lt;br /&gt;
+• DF11CZ-20DS-2V, &lt;br /&gt;
+• DF11-20DS-2DSA, &lt;br /&gt;
+• DF11-20DS-2C and &lt;br /&gt;
+• DF11-20DS-2R26 &lt;/p&gt;
+
+&lt;p&gt;
+Homepage : &lt;a href="https://www.hirose.com/product/en/products/DF11/"&gt;https://www.hirose.com/product/en/products/DF11/&lt;/a&gt; &lt;br /&gt;
+Datasheet: &lt;a href="https://www.hirose.com/product/en/download_file/key_name/DF11/category/Catalog/doc_file_id/31688/?file_category_id=4&amp;item_id=37&amp;is_series=1"&gt;https://www.hirose.com/product/en/download_file/key_name/DF11/category/Catalog/doc_file_id/31688/?file_category_id=4&amp;item_id=37&amp;is_series=1&lt;/a&gt; &lt;br /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;author&gt;Created by Hans Achterbahn &lt;br /&gt; (&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)&lt;/author&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINH2X10" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DF11-20DP-2DS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Hirose" constant="no"/>
+<attribute name="MFN" value="DF11-20DP-2DS" constant="no"/>
+<attribute name="MOUSER" value="798-DF11-20DP-2DS24" constant="no"/>
+<attribute name="RS-ONLINE" value="688-8954" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DF11CZ-20DS-2V" prefix="X">
+<description>&lt;b&gt;Hirose Connector: DF11CZ-20DS-2V&lt;/b&gt;
+
+&lt;p&gt;Right Angle Pin Header, can be used with &lt;br /&gt;
+• DF11-20DP-2DSA, &lt;br /&gt;
+• DF11-20DP-2DS, &lt;br /&gt;
+• DF11-20DP-2V, &lt;br /&gt;
+• DF11-20DEP-2C &lt;br /&gt;
+• DF11-20DEP-2A &lt;/p&gt;
+
+&lt;p&gt;
+Homepage : &lt;a href="https://www.hirose.com/product/en/products/DF11/"&gt;https://www.hirose.com/product/en/products/DF11/&lt;/a&gt; &lt;br /&gt;
+Datasheet: &lt;a href="https://www.hirose.com/product/en/download_file/key_name/DF11/category/Catalog/doc_file_id/31688/?file_category_id=4&amp;item_id=37&amp;is_series=1"&gt;https://www.hirose.com/product/en/download_file/key_name/DF11/category/Catalog/doc_file_id/31688/?file_category_id=4&amp;item_id=37&amp;is_series=1&lt;/a&gt; &lt;br /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;author&gt;Created by Hans Achterbahn &lt;br /&gt; (&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)&lt;/author&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINH2X10" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DF11CZ-20DS-2V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Hirose" constant="no"/>
+<attribute name="MFN" value="DF11CZ-20DS-2V" constant="no"/>
+<attribute name="MOUSER" value="798-DF11CZ-20DS-2V22" constant="no"/>
+<attribute name="RS-ONLINE" value="685-4705" constant="no"/>
 </technology>
 </technologies>
 </device>
