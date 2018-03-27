@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1552,15 +1552,15 @@ Documentary, Reference Manual and Datasheet: &lt;br /&gt;
 <gates>
 <gate name="G$1" symbol="BAT_AN_M" x="5.08" y="-40.64"/>
 <gate name="G$2" symbol="BOOT_RST" x="5.08" y="-58.42"/>
-<gate name="G$3" symbol="PORT_A_H" x="-33.02" y="-20.32"/>
+<gate name="G$3" symbol="PORT_A_H" x="-33.02" y="-17.78"/>
 <gate name="G$4" symbol="PORT_A_L" x="-33.02" y="7.62"/>
-<gate name="G$5" symbol="PORT_B_H" x="5.08" y="-17.78"/>
-<gate name="G$6" symbol="PORT_B_L" x="5.08" y="5.08"/>
-<gate name="G$10" symbol="PORT_C_H" x="-30.48" y="-68.58"/>
-<gate name="G$11" symbol="PORT_C_L" x="-30.48" y="-45.72"/>
-<gate name="G$8" symbol="VCC_VDD_M" x="-30.48" y="-109.22"/>
+<gate name="G$5" symbol="PORT_B_H" x="2.54" y="-17.78"/>
+<gate name="G$6" symbol="PORT_B_L" x="2.54" y="7.62"/>
+<gate name="G$10" symbol="PORT_C_H" x="-33.02" y="-68.58"/>
+<gate name="G$11" symbol="PORT_C_L" x="-33.02" y="-43.18"/>
+<gate name="G$8" symbol="VCC_VDD_M" x="-35.56" y="-106.68"/>
 <gate name="G$7" symbol="PORT_D_1" x="7.62" y="-71.12"/>
-<gate name="G$9" symbol="PORT_H_2" x="7.62" y="-78.74"/>
+<gate name="G$9" symbol="PORT_H_2" x="2.54" y="-78.74"/>
 </gates>
 <devices>
 <device name="" package="TQFP64">
@@ -1631,7 +1631,12 @@ Documentary, Reference Manual and Datasheet: &lt;br /&gt;
 <connect gate="G$9" pin="PH1/OSC=&gt;" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="ST" constant="no"/>
+<attribute name="MFN" value="STM32F415RG" constant="no"/>
+<attribute name="MOUSER" value="511-STM32F415RGT6" constant="no"/>
+<attribute name="RS-ONLINE" value="746-8239" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3126,7 +3131,12 @@ Documentary, Reference Manual and Datasheet: &lt;br /&gt;
 <connect gate="G$9" pin="PE7" pad="38"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="ST" constant="no"/>
+<attribute name="MFN" value="STM32F415VG" constant="no"/>
+<attribute name="MOUSER" value="511-STM32F415VGT6" constant="no"/>
+<attribute name="RS-ONLINE" value="---" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

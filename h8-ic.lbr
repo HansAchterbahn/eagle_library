@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.7.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -602,7 +603,40 @@ Created by Hans Achterbahn &lt;br /&gt;
 <smd name="17" x="4.5212" y="3.81" dx="1.9812" dy="0.5588" layer="1"/>
 <smd name="18" x="4.5212" y="5.08" dx="1.9812" dy="0.5588" layer="1"/>
 </package>
+<package name="TSR1-2433SM" urn="urn:adsk.eagle:footprint:2456751/1" locally_modified="yes">
+<description>10-SOP, 2.54 mm pitch, 11.8 mm span, 15.2 X 9.3 X 7.3 mm body
+&lt;p&gt;10-pin SOP package with 2.54 mm pitch, 11.8 mm span with body size 15.2 X 9.3 X 7.3 mm&lt;/p&gt;</description>
+<circle x="-5.478" y="5.7449" radius="0.075" width="0" layer="21"/>
+<wire x1="-4.65" y1="5.6699" x2="-4.65" y2="7.6" width="0.12" layer="21"/>
+<wire x1="-4.65" y1="7.6" x2="4.65" y2="7.6" width="0.12" layer="21"/>
+<wire x1="4.65" y1="7.6" x2="4.65" y2="5.6699" width="0.12" layer="21"/>
+<wire x1="-4.65" y1="-5.6699" x2="-4.65" y2="-7.6" width="0.12" layer="21"/>
+<wire x1="-4.65" y1="-7.6" x2="4.65" y2="-7.6" width="0.12" layer="21"/>
+<wire x1="4.65" y1="-7.6" x2="4.65" y2="-5.6699" width="0.12" layer="21"/>
+<wire x1="4.65" y1="-7.6" x2="-4.65" y2="-7.6" width="0.12" layer="51"/>
+<wire x1="-4.65" y1="-7.6" x2="-4.65" y2="7.6" width="0.12" layer="51"/>
+<wire x1="-4.65" y1="7.6" x2="4.65" y2="7.6" width="0.12" layer="51"/>
+<wire x1="4.65" y1="7.6" x2="4.65" y2="-7.6" width="0.12" layer="51"/>
+<smd name="1" x="-5.195" y="5.08" dx="2.2218" dy="0.6718" layer="1" thermals="no"/>
+<smd name="5" x="-5.195" y="-5.08" dx="2.2218" dy="0.6718" layer="1" thermals="no"/>
+<smd name="6" x="5.195" y="-5.08" dx="2.2218" dy="0.6718" layer="1" thermals="no"/>
+<smd name="7" x="5.195" y="-2.54" dx="2.2218" dy="0.6718" layer="1" thermals="no"/>
+<smd name="8" x="5.195" y="0" dx="2.2218" dy="0.6718" layer="1" thermals="no"/>
+<smd name="9" x="5.195" y="2.54" dx="2.2218" dy="0.6718" layer="1" thermals="no"/>
+<smd name="10" x="5.195" y="5.08" dx="2.2218" dy="0.6718" layer="1" thermals="no"/>
+<text x="0" y="8.235" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8.235" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
+<packages3d>
+<package3d name="SOP254P1180X730-10" urn="urn:adsk.eagle:package:2456719/1" locally_modified="yes" type="model">
+<description>10-SOP, 2.54 mm pitch, 11.8 mm span, 15.2 X 9.3 X 7.3 mm body
+&lt;p&gt;10-pin SOP package with 2.54 mm pitch, 11.8 mm span with body size 15.2 X 9.3 X 7.3 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="TSR1-2433SM"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="FT232R">
 <wire x1="-10.16" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
@@ -1022,6 +1056,25 @@ Mosfet H-Bridge</text>
 <pin name="GP7" x="22.86" y="5.08" length="middle" direction="pas" rot="R180"/>
 <pin name="VDD" x="22.86" y="7.62" length="middle" direction="pwr" rot="R180"/>
 </symbol>
+<symbol name="DC/DC">
+<pin name="VIN" x="-15.24" y="2.54" length="middle" direction="pwr"/>
+<pin name="VOUT" x="15.24" y="2.54" length="middle" direction="sup" rot="R180"/>
+<pin name="GND2" x="2.54" y="-12.7" length="middle" direction="pwr" rot="R90"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<pin name="GND1" x="-2.54" y="-12.7" length="middle" direction="pwr" rot="R90"/>
+<text x="-10.16" y="5.588" size="2.54" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-8.128" size="2.54" layer="96" rot="MR180">&gt;VALUE</text>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-6.35" x2="0" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="0" y1="-6.35" x2="2.54" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-6.35" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-6.35" x2="0" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FT232RL" prefix="U">
@@ -1288,12 +1341,11 @@ Production SKU IC-00870</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="Good"/>
-<attribute name="DESCRIPTION" value=" MCP23008 Series 5.5 V 1.7 MHz 8-Bit I/O Expander with Serial Interface - SSOP-20 "/>
 <attribute name="MF" value="Microchip"/>
-<attribute name="MP" value="MCP23008-E/SS"/>
+<attribute name="MFN" value="MCP23008-E/SS"/>
+<attribute name="MOUSER" value="579-MCP23008T-E/SS" constant="no"/>
 <attribute name="PACKAGE" value="SSOP-20 Microchip"/>
-<attribute name="PRICE" value="1.04 USD"/>
+<attribute name="RS-ONLINE" value="770-9707" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1328,13 +1380,60 @@ Production SKU IC-00870</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="Good"/>
-<attribute name="DESCRIPTION" value=" MCP23008 Series 5.5 V 1.7 MHz 8-Bit I/O Expander with Serial Interface - SOIC-18 "/>
 <attribute name="MF" value="Microchip"/>
-<attribute name="MP" value="MCP23008T-E/SO"/>
-<attribute name="PACKAGE" value="SOIC-18 Microchip"/>
-<attribute name="PRICE" value="0.90 USD"/>
+<attribute name="MFN" value="MCP23008T-E/SO"/>
+<attribute name="MOUSER" value="579-MCP23008T-E/SO" constant="no"/>
+<attribute name="RS-ONLINE" value="403-642" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TSR1-2433SM" prefix="IC">
+<description>&lt;p&gt;
+  &lt;img src="https://assets.tracopower.com/20180327160451/TSR1SM/images/350x200/tsr1sm.jpg" alt="Traco Power - TSR 1-2433SM"&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;b&gt;Traco Power - TSR 1-2433SM&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+  Features:
+  &lt;ul&gt;
+    &lt;li&gt;Input voltage: 4.75 V to 36 V &lt;/li&gt;
+    &lt;li&gt;Output voltage: 3.3 V &lt;/li&gt;
+    &lt;li&gt;Output current: 1A&lt;/li&gt;
+    &lt;li&gt;Non-Isolated / POL&lt;/li&gt;
+    &lt;li&gt;Output chanels: 1&lt;/li&gt;
+    &lt;li&gt; Series: TSR 1SM&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+  Homepage: &lt;a href="https://www.tracopower.com/products/browse-by-category/find/tsr-1sm/3/"&gt;https://www.tracopower.com/products/browse-by-category/find/tsr-1sm/3/&lt;/a&gt;&lt;br /&gt;
+  Datasheet: &lt;a href="https://www.mouser.de/ds/2/687/tsr1sm-536462.pdf"&gt;https://www.mouser.de/ds/2/687/tsr1sm-536462.pdf&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;author&gt;Created by Hans Achterbahn &lt;br /&gt; (&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)&lt;/author&gt;
+&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DC/DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TSR1-2433SM" package="TSR1-2433SM">
+<connects>
+<connect gate="G$1" pin="GND1" pad="7"/>
+<connect gate="G$1" pin="GND2" pad="9"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2456719/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1346,6 +1445,16 @@ Production SKU IC-00870</description>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
