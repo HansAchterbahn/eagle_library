@@ -1596,7 +1596,125 @@ Datasheet: &lt;a href="http://www.phoenixcontact.com/us/products/1778764/pdf"&gt
 <wire x1="6.7" y1="0" x2="6.7" y2="0.9375" width="0.127" layer="21"/>
 <wire x1="6.7" y1="0.9375" x2="6.7" y2="7.1875" width="0.127" layer="51"/>
 </package>
+<package name="MOLEX-502352-1000">
+<description>&lt;p&gt;
+&lt;img src="https://www.molex.com/pdm_docs/iso/5023520800_ISO.gif"&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;b&gt;Molex DuraClik Wire-to-Board Header, Single Row, Right Angle, 10 Circuits - 5023521000&lt;/b&gt;
+&lt;/p&gt;
+
+
+&lt;p&gt; Features:
+&lt;ul&gt;
+  &lt;li&gt;SMD&lt;/li&gt;
+  &lt;li&gt;Pole: 10 &lt;/li&gt;
+  &lt;li&gt;Rows: 1 &lt;/li&gt;
+  &lt;li&gt;Grid: 2 mm&lt;/li&gt;
+  &lt;li&gt;Current: 3A &lt;/li&gt;
+  &lt;li&gt;Rated voltage: 125V &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Can be used with :
+&lt;ul&gt;
+  &lt;li&gt;Molex 502351&lt;/li&gt;
+  &lt;li&gt;Molex 560123&lt;/li&gt;
+  &lt;li&gt;Molex 505151&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+Description: &lt;br /&gt;
+Die Molex DuraClik™ Draht-zu-Platine-Steckverbinder mit einem 2,0mm (0,079 Zoll) Rastermaß sind für Bordinstrumentenanwendungen ausgelegt, die in Umgebungen mit hohen Schwingungen betrieben werden. Die einreihigen, rechtwinkligen SMT-Anschlüsse mit positivem Riegel sind robuster als die meisten 2,00mm-Rastermaß-Systeme und verfügen zur Bestätigung der Kopplung sowie der Polarisierungsfunktionen über einen hörbaren und spürbaren Klick zur Verhinderung einer Fehlsteckung. Das sichere Innenverriegelungssystem gewährleistet eine vollständige Verriegelung des Steckverbinders, vermeidet ein Lösen der Verriegelung bei der Handhabung und spart Platz im Vergleich zu Außenverriegelungssystemen. Dank einer breiten Lötfahne bietet der DuraClik einen Zugwiderstand nach oben von 100N (10kgf) und hält somit die Platine in Anwendungen mit hohen Schwingungen fest am Platz.
+&lt;/p&gt;
+
+&lt;p&gt;
+Homepage : &lt;a href="https://www.molex.com/molex/products/datasheet.jsp?part=active/5023521000_PCB_HEADERS.xml"&gt;https://www.molex.com/molex/products/datasheet.jsp?part=active/5023521000_PCB_HEADERS.xml&lt;/a&gt; &lt;br /&gt;
+Datasheet: &lt;a href="https://www.molex.com/webdocs/datasheets/pdf/en-us/5023521000_PCB_HEADERS.pdf"&gt;https://www.molex.com/webdocs/datasheets/pdf/en-us/5023521000_PCB_HEADERS.pdf&lt;/a&gt; &lt;br /&gt;
+Drawing: &lt;a href="https://www.molex.com/pdm_docs/sd/5023521000_sd.pdf"&gt;https://www.molex.com/pdm_docs/sd/5023521000_sd.pdf&lt;/a&gt;&lt;br /&gt;
+3D-Model: &lt;a href="https://www.molex.com/molex/part/partModels.jsp?&amp;prodLevel=part&amp;partNo=5023521000&amp;channel=products"&gt;https://www.molex.com/molex/part/partModels.jsp?&amp;prodLevel=part&amp;partNo=5023521000&amp;channel=products&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;author&gt;
+    Created by Hans Achterbahn &lt;br /&gt; 
+    (&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)
+  &lt;/author&gt;
+&lt;p&gt;</description>
+<smd name="1" x="-8.9" y="8.03" dx="3.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="NC1" x="-11.55" y="2.55" dx="5.3" dy="1.7" layer="1" rot="R90"/>
+<smd name="NC2" x="11.55" y="2.55" dx="5.3" dy="1.7" layer="1" rot="R90"/>
+<smd name="2" x="-6.9" y="8.03" dx="3.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="3" x="-4.9" y="8.03" dx="3.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="4" x="-2.9" y="8.03" dx="3.2" dy="1.2" layer="1" rot="R90"/>
+<wire x1="-12" y1="0" x2="-12" y2="6.75" width="0.127" layer="21"/>
+<wire x1="-12" y1="6.75" x2="-10.75" y2="8.75" width="0.127" layer="21"/>
+<wire x1="-10.75" y1="8.75" x2="-10.75" y2="9.4" width="0.127" layer="21"/>
+<wire x1="-10.75" y1="9.4" x2="-10" y2="9.4" width="0.127" layer="21"/>
+<wire x1="-10" y1="9.4" x2="-10" y2="6.75" width="0.127" layer="21"/>
+<wire x1="-10" y1="6.75" x2="10" y2="6.75" width="0.127" layer="21"/>
+<wire x1="10" y1="6.75" x2="10" y2="9.4" width="0.127" layer="21"/>
+<wire x1="10" y1="9.4" x2="10.75" y2="9.4" width="0.127" layer="21"/>
+<wire x1="10.75" y1="9.4" x2="10.75" y2="8.75" width="0.127" layer="21"/>
+<wire x1="10.75" y1="8.75" x2="12" y2="6.75" width="0.127" layer="21"/>
+<wire x1="12" y1="6.75" x2="12" y2="0" width="0.127" layer="21"/>
+<wire x1="12" y1="0" x2="-12" y2="0" width="0.127" layer="21"/>
+<rectangle x1="-9.15" y1="8" x2="-8.65" y2="9.4" layer="51"/>
+<rectangle x1="-9.15" y1="6.75" x2="-8.65" y2="9.4" layer="51"/>
+<smd name="5" x="-0.9" y="8.03" dx="3.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="6" x="1.1" y="8.03" dx="3.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="7" x="3.1" y="8.03" dx="3.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="8" x="5.1" y="8.03" dx="3.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="9" x="7.1" y="8.03" dx="3.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="10" x="9.1" y="8.03" dx="3.2" dy="1.2" layer="1" rot="R90"/>
+<rectangle x1="-7.15" y1="6.75" x2="-6.65" y2="9.4" layer="51"/>
+<rectangle x1="-5.15" y1="6.75" x2="-4.65" y2="9.4" layer="51"/>
+<rectangle x1="-3.15" y1="6.75" x2="-2.65" y2="9.4" layer="51"/>
+<rectangle x1="-1.15" y1="6.75" x2="-0.65" y2="9.4" layer="51"/>
+<rectangle x1="0.85" y1="6.75" x2="1.35" y2="9.4" layer="51"/>
+<rectangle x1="2.85" y1="6.75" x2="3.35" y2="9.4" layer="51"/>
+<rectangle x1="4.85" y1="6.75" x2="5.35" y2="9.4" layer="51"/>
+<rectangle x1="6.85" y1="6.75" x2="7.35" y2="9.4" layer="51"/>
+<rectangle x1="8.85" y1="6.75" x2="9.35" y2="9.4" layer="51"/>
+</package>
+<package name="SOP254P1180X730-10" urn="urn:adsk.eagle:footprint:2456751/1">
+<description>10-SOP, 2.54 mm pitch, 11.8 mm span, 15.2 X 9.3 X 7.3 mm body
+&lt;p&gt;10-pin SOP package with 2.54 mm pitch, 11.8 mm span with body size 15.2 X 9.3 X 7.3 mm&lt;/p&gt;</description>
+<circle x="-5.478" y="5.7449" radius="0.075" width="0" layer="21"/>
+<wire x1="-4.65" y1="5.6699" x2="-4.65" y2="7.6" width="0.12" layer="21"/>
+<wire x1="-4.65" y1="7.6" x2="4.65" y2="7.6" width="0.12" layer="21"/>
+<wire x1="4.65" y1="7.6" x2="4.65" y2="5.6699" width="0.12" layer="21"/>
+<wire x1="-4.65" y1="-5.6699" x2="-4.65" y2="-7.6" width="0.12" layer="21"/>
+<wire x1="-4.65" y1="-7.6" x2="4.65" y2="-7.6" width="0.12" layer="21"/>
+<wire x1="4.65" y1="-7.6" x2="4.65" y2="-5.6699" width="0.12" layer="21"/>
+<wire x1="4.65" y1="-7.6" x2="-4.65" y2="-7.6" width="0.12" layer="51"/>
+<wire x1="-4.65" y1="-7.6" x2="-4.65" y2="7.6" width="0.12" layer="51"/>
+<wire x1="-4.65" y1="7.6" x2="4.65" y2="7.6" width="0.12" layer="51"/>
+<wire x1="4.65" y1="7.6" x2="4.65" y2="-7.6" width="0.12" layer="51"/>
+<smd name="1" x="-5.195" y="5.08" dx="2.2218" dy="0.6718" layer="1" thermals="no"/>
+<smd name="2" x="-5.195" y="2.54" dx="2.2218" dy="0.6718" layer="1" thermals="no"/>
+<smd name="3" x="-5.195" y="0" dx="2.2218" dy="0.6718" layer="1" thermals="no"/>
+<smd name="4" x="-5.195" y="-2.54" dx="2.2218" dy="0.6718" layer="1" thermals="no"/>
+<smd name="5" x="-5.195" y="-5.08" dx="2.2218" dy="0.6718" layer="1" thermals="no"/>
+<smd name="6" x="5.195" y="-5.08" dx="2.2218" dy="0.6718" layer="1" thermals="no"/>
+<smd name="7" x="5.195" y="-2.54" dx="2.2218" dy="0.6718" layer="1" thermals="no"/>
+<smd name="8" x="5.195" y="0" dx="2.2218" dy="0.6718" layer="1" thermals="no"/>
+<smd name="9" x="5.195" y="2.54" dx="2.2218" dy="0.6718" layer="1" thermals="no"/>
+<smd name="10" x="5.195" y="5.08" dx="2.2218" dy="0.6718" layer="1" thermals="no"/>
+<text x="0" y="8.235" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8.235" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
+<packages3d>
+<package3d name="SOP254P1180X730-10" urn="urn:adsk.eagle:package:2456719/1" type="model">
+<description>10-SOP, 2.54 mm pitch, 11.8 mm span, 15.2 X 9.3 X 7.3 mm body
+&lt;p&gt;10-pin SOP package with 2.54 mm pitch, 11.8 mm span with body size 15.2 X 9.3 X 7.3 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOP254P1180X730-10"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="USB-5PIN">
 <wire x1="7.62" y1="12.7" x2="0" y2="12.7" width="0.254" layer="94"/>
@@ -1886,6 +2004,24 @@ Datasheet: &lt;a href="http://www.phoenixcontact.com/us/products/1778764/pdf"&gt
 <wire x1="-0.508" y1="-9.652" x2="-1.524" y2="-9.652" width="0.254" layer="94"/>
 <wire x1="0" y1="-10.16" x2="-0.508" y2="-10.668" width="0.254" layer="94" curve="-90"/>
 <wire x1="-0.508" y1="-10.668" x2="-1.524" y2="-10.668" width="0.254" layer="94"/>
+</symbol>
+<symbol name="PINH1X10">
+<pin name="1" x="-7.62" y="0" length="short" direction="pas" swaplevel="1"/>
+<wire x1="-5.08" y1="-25.4" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-25.4" x2="-5.08" y2="-25.4" width="0.254" layer="94"/>
+<pin name="2" x="-7.62" y="-2.54" length="short" direction="pas" swaplevel="1"/>
+<pin name="3" x="-7.62" y="-5.08" length="short" direction="pas" swaplevel="1"/>
+<pin name="4" x="-7.62" y="-7.62" length="short" direction="pas" swaplevel="1"/>
+<text x="-5.08" y="2.794" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-25.654" size="1.778" layer="96" rot="MR180">&gt;VALUE</text>
+<pin name="5" x="-7.62" y="-10.16" length="short" direction="pas" swaplevel="1"/>
+<pin name="6" x="-7.62" y="-12.7" length="short" direction="pas" swaplevel="1"/>
+<pin name="7" x="-7.62" y="-15.24" length="short" direction="pas" swaplevel="1"/>
+<pin name="8" x="-7.62" y="-17.78" length="short" direction="pas" swaplevel="1"/>
+<pin name="9" x="-7.62" y="-20.32" length="short" direction="pas" swaplevel="1"/>
+<pin name="10" x="-7.62" y="-22.86" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2424,7 +2560,88 @@ Datasheet: &lt;a href="http://www.phoenixcontact.com/us/products/1778764/pdf"&gt
 </device>
 </devices>
 </deviceset>
+<deviceset name="MOLEX-502352-1000" prefix="X">
+<description>&lt;p&gt;
+&lt;img src="https://www.molex.com/pdm_docs/iso/5023520800_ISO.gif"&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;b&gt;Molex DuraClik Wire-to-Board Header, Single Row, Right Angle, 10 Circuits - 5023521000&lt;/b&gt;
+&lt;/p&gt;
+
+
+&lt;p&gt; Features:
+&lt;ul&gt;
+  &lt;li&gt;SMD&lt;/li&gt;
+  &lt;li&gt;Pole: 10 &lt;/li&gt;
+  &lt;li&gt;Rows: 1 &lt;/li&gt;
+  &lt;li&gt;Grid: 2 mm&lt;/li&gt;
+  &lt;li&gt;Current: 3A &lt;/li&gt;
+  &lt;li&gt;Rated voltage: 125V &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Can be used with :
+&lt;ul&gt;
+  &lt;li&gt;Molex 502351&lt;/li&gt;
+  &lt;li&gt;Molex 560123&lt;/li&gt;
+  &lt;li&gt;Molex 505151&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+Description: &lt;br /&gt;
+Die Molex DuraClik™ Draht-zu-Platine-Steckverbinder mit einem 2,0mm (0,079 Zoll) Rastermaß sind für Bordinstrumentenanwendungen ausgelegt, die in Umgebungen mit hohen Schwingungen betrieben werden. Die einreihigen, rechtwinkligen SMT-Anschlüsse mit positivem Riegel sind robuster als die meisten 2,00mm-Rastermaß-Systeme und verfügen zur Bestätigung der Kopplung sowie der Polarisierungsfunktionen über einen hörbaren und spürbaren Klick zur Verhinderung einer Fehlsteckung. Das sichere Innenverriegelungssystem gewährleistet eine vollständige Verriegelung des Steckverbinders, vermeidet ein Lösen der Verriegelung bei der Handhabung und spart Platz im Vergleich zu Außenverriegelungssystemen. Dank einer breiten Lötfahne bietet der DuraClik einen Zugwiderstand nach oben von 100N (10kgf) und hält somit die Platine in Anwendungen mit hohen Schwingungen fest am Platz.
+&lt;/p&gt;
+
+&lt;p&gt;
+Homepage : &lt;a href="https://www.molex.com/molex/products/datasheet.jsp?part=active/5023521000_PCB_HEADERS.xml"&gt;https://www.molex.com/molex/products/datasheet.jsp?part=active/5023521000_PCB_HEADERS.xml&lt;/a&gt; &lt;br /&gt;
+Datasheet: &lt;a href="https://www.molex.com/webdocs/datasheets/pdf/en-us/5023521000_PCB_HEADERS.pdf"&gt;https://www.molex.com/webdocs/datasheets/pdf/en-us/5023521000_PCB_HEADERS.pdf&lt;/a&gt; &lt;br /&gt;
+Drawing: &lt;a href="https://www.molex.com/pdm_docs/sd/5023521000_sd.pdf"&gt;https://www.molex.com/pdm_docs/sd/5023521000_sd.pdf&lt;/a&gt;&lt;br /&gt;
+3D-Model: &lt;a href="https://www.molex.com/molex/part/partModels.jsp?&amp;prodLevel=part&amp;partNo=5023521000&amp;channel=products"&gt;https://www.molex.com/molex/part/partModels.jsp?&amp;prodLevel=part&amp;partNo=5023521000&amp;channel=products&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;author&gt;
+    Created by Hans Achterbahn &lt;br /&gt; 
+    (&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)
+  &lt;/author&gt;
+&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINH1X10" x="-10.16" y="2.54" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="MOLEX-502352-1000">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
