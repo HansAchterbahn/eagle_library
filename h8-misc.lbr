@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="8.7.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -52,7 +53,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -80,10 +81,217 @@ Created by Hans Achterbahn &lt;br /&gt;
 (&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)
 &lt;/author&gt;&lt;p&gt;</description>
 <packages>
+<package name="APRA-NORM-442-311-35">
+<description>&lt;p&gt;
+  &lt;a href="https://www.apra.de/produkte/hutschienenhalteklammer/"&gt;&lt;img width=600 src="https://www.apra.de/wp-content/uploads/2017/11/Titel_Hutschienenhalteklammer.jpg"&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;b&gt;apra-norm Hutschienenklammer 442-311-35&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;schnelle, sichere, stabile Befestigung von Kleingehäusen, Platinen und Baugruppen auf Hutschienen (TS 35) und Tragschienen&lt;/li&gt;
+    &lt;li&gt;kann einfach von innen oder außen an die Rückwand des Gehäuses montiert werden&lt;/li&gt;
+    &lt;li&gt;Set = 10 Stück&lt;/li&gt;
+    &lt;li&gt;6 Versionen sind verfügbar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+&lt;b&gt;Material:&lt;/b&gt; PA6 GF 30, brandklassifiziert nach UL 94 V-0, schwarz
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;table border=1 cellpadding=2&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th&gt;Beschreibung&lt;/th&gt;
+      &lt;th&gt;Bestell-Nr.&lt;/th&gt;
+    &lt;/tr&gt;    
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;45 mm breit mit Durchgangsloch, Senkung M4&lt;/td&gt;
+      &lt;td&gt;442-311-20&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;45 mm breit mit Gewindeeinsätzen M3, Senkung M4&lt;/td&gt;
+      &lt;td&gt;442-311-25&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;18 mm breit mit Durchgangsloch&lt;/td&gt;
+      &lt;td&gt;442-311-30&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;18 mm breit mit Gewindeeinsätzen M3&lt;/td&gt;
+      &lt;td&gt;442-311-35&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;45 mm breit mit Durchgangsloch, Senkung M3&lt;/td&gt;
+      &lt;td&gt;442-311-44&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;18 mm breit mit Senkung M3&lt;/td&gt;
+      &lt;td&gt;442-311-45&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+  Homepage: &lt;a href="https://www.apra.de/produkte/hutschienenhalteklammer/"&gt;https://www.apra.de/produkte/hutschienenhalteklammer/&lt;/a&gt; &lt;br /&gt;
+  Katalog: &lt;a href="https://www.apra.de/wp-content/uploads/2017/11/Katalog_Schalttafel-_und_Hutschienengehaeuse_DIN_und_Rail_Ausgabe_15_de.pdf"&gt;https://www.apra.de/wp-content/uploads/2017/11/Katalog_Schalttafel-_und_Hutschienengehaeuse_DIN_und_Rail_Ausgabe_15_de.pdf&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;author&gt;
+    &lt;i&gt;Created by Hans Achterbahn &lt;br /&gt; (&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)&lt;/i&gt;
+  &lt;/author&gt;
+&lt;p&gt;</description>
+<wire x1="-8.95" y1="0" x2="8.95" y2="0" width="0.127" layer="21"/>
+<wire x1="-8.95" y1="75" x2="-8" y2="75" width="0.127" layer="21"/>
+<wire x1="-8" y1="75" x2="-6" y2="75" width="0.127" layer="21"/>
+<wire x1="-4" y1="75" x2="4" y2="75" width="0.127" layer="21"/>
+<wire x1="6" y1="75" x2="8" y2="75" width="0.127" layer="21"/>
+<wire x1="8" y1="75" x2="8.95" y2="75" width="0.127" layer="21"/>
+<wire x1="-8.95" y1="75" x2="-8.95" y2="50" width="0.127" layer="21"/>
+<wire x1="-8.95" y1="50" x2="-8.95" y2="49" width="0.127" layer="21"/>
+<wire x1="-8.95" y1="49" x2="-8.95" y2="0" width="0.127" layer="21"/>
+<wire x1="8.95" y1="75" x2="8.95" y2="50" width="0.127" layer="21"/>
+<hole x="0" y="4.6" drill="3.2"/>
+<hole x="0" y="38.6" drill="3.2"/>
+<wire x1="8.95" y1="50" x2="8.95" y2="48" width="0.127" layer="21"/>
+<wire x1="8.95" y1="48" x2="8.95" y2="0" width="0.127" layer="21"/>
+<wire x1="-6" y1="80" x2="6" y2="80" width="0.127" layer="21"/>
+<wire x1="6" y1="80" x2="6" y2="73" width="0.127" layer="21"/>
+<wire x1="6" y1="73" x2="6" y2="72" width="0.127" layer="21"/>
+<wire x1="6" y1="72" x2="6" y2="52" width="0.127" layer="21"/>
+<wire x1="6" y1="52" x2="6" y2="49" width="0.127" layer="21"/>
+<wire x1="6" y1="49" x2="-6" y2="49" width="0.127" layer="21"/>
+<wire x1="-6" y1="49" x2="-6" y2="52" width="0.127" layer="21"/>
+<wire x1="-6" y1="52" x2="-6" y2="72" width="0.127" layer="21"/>
+<wire x1="-6" y1="72" x2="-6" y2="73" width="0.127" layer="21"/>
+<wire x1="-6" y1="73" x2="-6" y2="80" width="0.127" layer="21"/>
+<wire x1="-4" y1="78" x2="-4" y2="75" width="0.127" layer="21"/>
+<wire x1="-4" y1="75" x2="-4" y2="72" width="0.127" layer="21"/>
+<wire x1="-4" y1="72" x2="4" y2="72" width="0.127" layer="21"/>
+<wire x1="4" y1="72" x2="4" y2="75" width="0.127" layer="21"/>
+<wire x1="4" y1="75" x2="4" y2="78" width="0.127" layer="21"/>
+<wire x1="-4" y1="78" x2="4" y2="78" width="0.127" layer="21"/>
+<wire x1="-8" y1="75" x2="-8" y2="73" width="0.127" layer="21"/>
+<wire x1="-8" y1="73" x2="-8" y2="72" width="0.127" layer="21"/>
+<wire x1="-8" y1="72" x2="-6" y2="72" width="0.127" layer="21"/>
+<wire x1="-8" y1="73" x2="-6" y2="73" width="0.127" layer="21"/>
+<wire x1="6" y1="72" x2="8" y2="72" width="0.127" layer="21"/>
+<wire x1="8" y1="72" x2="8" y2="73" width="0.127" layer="21"/>
+<wire x1="8" y1="73" x2="8" y2="75" width="0.127" layer="21"/>
+<wire x1="6" y1="73" x2="8" y2="73" width="0.127" layer="21"/>
+<wire x1="-6" y1="52" x2="-8" y2="52" width="0.127" layer="21"/>
+<wire x1="-8" y1="52" x2="-8" y2="50" width="0.127" layer="21"/>
+<wire x1="-8" y1="50" x2="-8" y2="49" width="0.127" layer="21"/>
+<wire x1="-8" y1="49" x2="-8" y2="48" width="0.127" layer="21"/>
+<wire x1="-8" y1="48" x2="-8" y2="46" width="0.127" layer="21"/>
+<wire x1="-8" y1="46" x2="8" y2="46" width="0.127" layer="21"/>
+<wire x1="8" y1="46" x2="8" y2="48" width="0.127" layer="21"/>
+<wire x1="8" y1="48" x2="8" y2="50" width="0.127" layer="21"/>
+<wire x1="8" y1="50" x2="8" y2="52" width="0.127" layer="21"/>
+<wire x1="8" y1="52" x2="6" y2="52" width="0.127" layer="21"/>
+<wire x1="-6" y1="49" x2="-6" y2="48" width="0.127" layer="21"/>
+<wire x1="-6" y1="48" x2="-8" y2="48" width="0.127" layer="21"/>
+<wire x1="6" y1="49" x2="6" y2="48" width="0.127" layer="21"/>
+<wire x1="6" y1="48" x2="8" y2="48" width="0.127" layer="21"/>
+<wire x1="-8" y1="50" x2="-8.95" y2="50" width="0.127" layer="21"/>
+<wire x1="8" y1="50" x2="8.95" y2="50" width="0.127" layer="21"/>
+<wire x1="8" y1="48" x2="8.95" y2="48" width="0.127" layer="21"/>
+<wire x1="-8" y1="49" x2="-8.95" y2="49" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 </symbols>
 <devicesets>
+<deviceset name="APRA-NORM-442-311-35">
+<description>&lt;p&gt;
+  &lt;a href="https://www.apra.de/produkte/hutschienenhalteklammer/"&gt;&lt;img width=600 src="https://www.apra.de/wp-content/uploads/2017/11/Titel_Hutschienenhalteklammer.jpg"&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;b&gt;apra-norm Hutschienenklammer 442-311-35&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;schnelle, sichere, stabile Befestigung von Kleingehäusen, Platinen und Baugruppen auf Hutschienen (TS 35) und Tragschienen&lt;/li&gt;
+    &lt;li&gt;kann einfach von innen oder außen an die Rückwand des Gehäuses montiert werden&lt;/li&gt;
+    &lt;li&gt;Set = 10 Stück&lt;/li&gt;
+    &lt;li&gt;6 Versionen sind verfügbar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+&lt;b&gt;Material:&lt;/b&gt; PA6 GF 30, brandklassifiziert nach UL 94 V-0, schwarz
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;table border=1 cellpadding=2&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th&gt;Beschreibung&lt;/th&gt;
+      &lt;th&gt;Bestell-Nr.&lt;/th&gt;
+    &lt;/tr&gt;    
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;45 mm breit mit Durchgangsloch, Senkung M4&lt;/td&gt;
+      &lt;td&gt;442-311-20&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;45 mm breit mit Gewindeeinsätzen M3, Senkung M4&lt;/td&gt;
+      &lt;td&gt;442-311-25&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;18 mm breit mit Durchgangsloch&lt;/td&gt;
+      &lt;td&gt;442-311-30&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;18 mm breit mit Gewindeeinsätzen M3&lt;/td&gt;
+      &lt;td&gt;442-311-35&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;45 mm breit mit Durchgangsloch, Senkung M3&lt;/td&gt;
+      &lt;td&gt;442-311-44&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;18 mm breit mit Senkung M3&lt;/td&gt;
+      &lt;td&gt;442-311-45&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+  Homepage: &lt;a href="https://www.apra.de/produkte/hutschienenhalteklammer/"&gt;https://www.apra.de/produkte/hutschienenhalteklammer/&lt;/a&gt; &lt;br /&gt;
+  Katalog: &lt;a href="https://www.apra.de/wp-content/uploads/2017/11/Katalog_Schalttafel-_und_Hutschienengehaeuse_DIN_und_Rail_Ausgabe_15_de.pdf"&gt;https://www.apra.de/wp-content/uploads/2017/11/Katalog_Schalttafel-_und_Hutschienengehaeuse_DIN_und_Rail_Ausgabe_15_de.pdf&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;author&gt;
+    &lt;i&gt;Created by Hans Achterbahn &lt;br /&gt; (&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)&lt;/i&gt;
+  &lt;/author&gt;
+&lt;p&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="" package="APRA-NORM-442-311-35">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
